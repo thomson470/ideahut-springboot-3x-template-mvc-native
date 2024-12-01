@@ -1,0 +1,25 @@
+##
+#
+# BUILD
+#   docker build --no-cache -t ideahut-springboot-3x-template-mvc-alpine . -f Dockerfile-alpine
+#
+# RUN
+#   docker run -d --name ideahut-springboot-3x-template-mvc-alpine -v <lokasi application.yml>:/apps/application.yml -v <lokasi extras>:/apps/extras/ -p 5401:5401 ideahut-springboot-3x-template-mvc-alpine
+#
+# DOCS
+#   https://www.graalvm.org/22.2/reference-manual/native-image/guides/use-native-image-maven-plugin/
+##
+
+FROM ideahutappsteam/alpine-jdk.17.0.10-graalvm.23.0.3-maven.3.9.6 as builder
+
+WORKDIR /build
+ADD ./src/ /build/src/
+ADD ./pom.xml /build/pom.xml
+
+RUN mvn -Pnative clean package native:compile
+
+FROM alpine
+WORKDIR /apps
+COPY --from=builder /build/target/ideahut-springboot-3x-template-mvc-native /apps/run
+COPY --from=builder /build/target/*.so /apps/
+CMD ["/apps/run", "-Duser.dir=/apps", "-Djava.home=", "-Duser.home=/apps", "-Djava.io.tmpdir="]

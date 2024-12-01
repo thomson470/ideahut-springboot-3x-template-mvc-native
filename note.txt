@@ -1,0 +1,13 @@
+export GRAALVM_HOME=/Library/Java/JavaVirtualMachines/bellsoft-liberica-vm-full-openjdk21-23.1.2/Contents/Home
+export JAVA_HOME=$GRAALVM_HOME
+export MAVEN_HOME=/opt/macdev/maven/3.9.1
+export PATH=$PATH:$GRAALVM_HOME/bin:$MAVEN_HOME/bin
+
+mvn clean compile spring-boot:process-aot package 
+
+$JAVA_HOME/bin/java \
+-Dspring.aot.enabled=true \
+-agentlib:native-image-agent=config-merge-dir=./src/main/resources/META-INF/native-image \
+-jar target/ideahut-springboot-3x-template-mvc-native-1.0.0.jar
+
+mvn clean -Pnative native:compile
