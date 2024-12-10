@@ -1,5 +1,5 @@
 server:
-   port: 5401
+   port: 5402
       
 debug: false
 
@@ -13,7 +13,7 @@ debug: false
 
 spring:
    application:
-      name: ideahut-springboot-3x-template-mvc-native
+      name: "ideahut-springboot-3x-template-mvc-native"
    quartz:
       auto-startup: false
    servlet:
@@ -38,7 +38,7 @@ spring:
          max-lifetime: "1000"
          auto-commit: "true"
       driver-class-name: "com.mysql.cj.jdbc.Driver"
-      jdbc-url: "jdbc:mysql://localhost:3306/springboot_sample_main?createDatabaseIfNotExist=true&autoReconnect=true"
+      jdbc-url: "jdbc:mysql://localhost:3306/sbmvc_sample_main?createDatabaseIfNotExist=true&autoReconnect=true"
       username: "root"
       password: "a3213c419771fbd1a05cdde7127e6393ef852db97328b21a45de700e9bbe85db"
    jpa:
@@ -72,6 +72,7 @@ app:
    ignored-handler-classes:
       - org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
       - org.springframework.web.servlet.NoHandlerFoundException
+      - org.springframework.http.converter.HttpMessageNotWritableException
    
    #
    # Model / Entity yang punya annotation @ForeignKeyEntity akan dieksekusi
@@ -85,7 +86,7 @@ app:
    audit:
       datasource:
          driver-class-name: "com.mysql.cj.jdbc.Driver"
-         jdbc-url: "jdbc:mysql://localhost:3306/springboot_sample_main_audit?createDatabaseIfNotExist=true&autoReconnect=true"
+         jdbc-url: "jdbc:mysql://localhost:3306/sbmvc_sample_main_audit?createDatabaseIfNotExist=true&autoReconnect=true"
          username: "root"
          password: "a3213c419771fbd1a05cdde7127e6393ef852db97328b21a45de700e9bbe85db"
       jpa:
@@ -120,7 +121,7 @@ app:
          type: 0
          standalone:
             host: 127.0.0.1
-            port: 6380
+            port: 6379
             password: "a3213c419771fbd1a05cdde7127e6393ef852db97328b21a45de700e9bbe85db"
             database: 0
             
@@ -166,8 +167,10 @@ app:
       webPath: "/_/web"
       webLocation: "file:{user.dir}/extras/admin/web/"
       webEnabled: true
+      useBasicAuth: false
 
    api:
+      name: "TEMPLATE-MVC"
       enable:
          consumer: true
          crud: true
@@ -201,6 +204,10 @@ app:
       corePoolSize: 10
       maxPoolSize: 100
       
+   crud:
+      enableApiService: true
+      enablePermission: true
+      
    handler:
       enableReport: true
       enableKafka: true
@@ -210,7 +217,7 @@ other:
       second:
          datasource:
             driver-class-name: "com.mysql.cj.jdbc.Driver"
-            jdbc-url: "jdbc:mysql://localhost:3306/springboot_sample_other?createDatabaseIfNotExist=true&autoReconnect=true"
+            jdbc-url: "jdbc:mysql://localhost:3306/sbmvc_sample_other?createDatabaseIfNotExist=true&autoReconnect=true"
             username: "root"
             password: "a3213c419771fbd1a05cdde7127e6393ef852db97328b21a45de700e9bbe85db"  
          jpa:
@@ -224,7 +231,7 @@ other:
          audit:
             datasource:
                driver-class-name: "com.mysql.cj.jdbc.Driver"
-               jdbc-url: "jdbc:mysql://localhost:3306/springboot_sample_other_audit?createDatabaseIfNotExist=true&autoReconnect=true"
+               jdbc-url: "jdbc:mysql://localhost:3306/sbmvc_sample_other_audit?createDatabaseIfNotExist=true&autoReconnect=true"
                username: "root"
                password: "a3213c419771fbd1a05cdde7127e6393ef852db97328b21a45de700e9bbe85db"
             jpa:
