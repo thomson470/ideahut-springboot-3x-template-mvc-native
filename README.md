@@ -64,7 +64,7 @@ ideahut-springboot-3x-template-centos
 ```
 
 ## Admin
-- `URL`  : https://localhost:5402/_/web
+- `URL`  : http://localhost:5402/_/web
 - `User` : admin
 - `Pass` : password
 <div align="left">
