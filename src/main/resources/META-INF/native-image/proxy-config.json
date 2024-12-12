@@ -75,60 +75,6 @@
     "interfaces":["net.ideahut.springboot.template.repo.ManualGenStrIdSoftDelRepo","org.springframework.data.repository.Repository","org.springframework.transaction.interceptor.TransactionalProxy","org.springframework.aop.framework.Advised","org.springframework.core.DecoratingProxy"]
   },
   {
-    "interfaces":["net.sf.jasperreports.export.CsvExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.CsvReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.DocxExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.DocxReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.HtmlExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.HtmlReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.JsonExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.JsonReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.PdfExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.PdfReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.PptxExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.PptxReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.ReportExportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.RtfReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.XlsExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.XlsReportConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.XlsxExporterConfiguration"]
-  },
-  {
-    "interfaces":["net.sf.jasperreports.export.XlsxReportConfiguration"]
-  },
-  {
     "interfaces":["org.hibernate.Session","org.springframework.orm.jpa.EntityManagerProxy"]
   },
   {

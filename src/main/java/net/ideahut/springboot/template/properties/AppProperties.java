@@ -42,9 +42,6 @@ public class AppProperties {
 	// Direktori file message berdasarkan bahasa
 	private String messagePath;
 	
-	// Lokasi file report (jrxml / jasper)
-	private String reportPath;
-	
 	// File konfigurasi kafka
 	private String kafkaConfigurationFile;
 	
@@ -122,7 +119,6 @@ public class AppProperties {
 	@Setter
 	@Getter
 	public static class Handler {
-		private Boolean enableReport;
 		private Boolean enableKafka;
 	}
 	

@@ -32,7 +32,6 @@
         <version.commons-io>2.17.0</version.commons-io>
         <version.jbcrypt>0.4</version.jbcrypt>
         <version.jjwt>0.12.6</version.jjwt>
-        <version.jasperreports>6.21.4</version.jasperreports>
 		<version.apache-poi>5.3.0</version.apache-poi>
 		<version.jakarta.mail>2.0.1</version.jakarta.mail>
         
@@ -138,19 +137,6 @@
 			<groupId>com.sun.mail</groupId>
 		    <artifactId>jakarta.mail</artifactId>
 		    <version>${version.jakarta.mail}</version>
-		</dependency>
-
-
-		<!-- JASPER REPORT -->
-		<dependency>
-		    <groupId>net.sf.jasperreports</groupId>
-		    <artifactId>jasperreports</artifactId>
-		    <version>${version.jasperreports}</version>
-		</dependency>
-		<dependency>
-		    <groupId>net.sf.jasperreports</groupId>
-		    <artifactId>jasperreports-fonts</artifactId>
-		    <version>${version.jasperreports}</version>
 		</dependency>
 
 

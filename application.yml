@@ -58,7 +58,6 @@ app:
    loggingError: true
    autoStartScheduler: false
    messagePath: "file:{user.dir}/extras/message/"
-   reportPath: "file:{user.dir}/extras/report/"
    kafkaConfigurationFile: "file:{user.dir}/extras/kafka/kafka1.yaml"
    
    cors:
@@ -209,7 +208,6 @@ app:
       enablePermission: true
       
    handler:
-      enableReport: true
       enableKafka: true
 
 other:   

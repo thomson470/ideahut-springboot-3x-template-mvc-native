@@ -26,8 +26,6 @@ import net.ideahut.springboot.kafka.KafkaHandlerImpl;
 import net.ideahut.springboot.mail.MailHandler;
 import net.ideahut.springboot.mail.MailHandlerImpl;
 import net.ideahut.springboot.mapper.DataMapper;
-import net.ideahut.springboot.report.ReportHandler;
-import net.ideahut.springboot.report.ReportHandlerImpl;
 import net.ideahut.springboot.rest.OkHttpRestHandler;
 import net.ideahut.springboot.rest.RestHandler;
 import net.ideahut.springboot.sysparam.SysParamHandler;
@@ -47,7 +45,6 @@ import net.ideahut.springboot.template.support.HandlerSupport;
  * - CrudHandler
  * - GridHandler
  * - InitHandler
- * - ReportHandler
  * - MailHandler
  * - RestHandler
  * - SysParamHandler
@@ -272,21 +269,6 @@ class HandlerConfig {
 	) {
 		return new OkHttpRestHandler()
 		.setDataMapper(dataMapper);
-	}
-	
-	
-	/*
-	 * REPORT
-	 */
-	@Bean
-	ReportHandler reportHandler(
-		AppProperties appProperties		
-	) {
-		if (Boolean.FALSE.equals(appProperties.getHandler().getEnableReport())) {
-			return HandlerSupport.UNSUPPORTED_REPORT_HANDLER;
-		} else {
-			return new ReportHandlerImpl();
-		}
 	}
 	
 	

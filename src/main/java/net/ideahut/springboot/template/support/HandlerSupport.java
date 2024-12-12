@@ -1,8 +1,6 @@
 package net.ideahut.springboot.template.support;
 
-import java.io.OutputStream;
 import java.time.Duration;
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -12,54 +10,16 @@ import net.ideahut.springboot.kafka.KafkaHandler;
 import net.ideahut.springboot.kafka.KafkaProperties;
 import net.ideahut.springboot.kafka.KafkaSender;
 import net.ideahut.springboot.kafka.ReplyKafkaSender;
-import net.ideahut.springboot.report.ReportHandler;
-import net.ideahut.springboot.report.ReportInput;
-import net.ideahut.springboot.report.ReportResult;
-import net.ideahut.springboot.report.ReportType;
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JasperPrint;
 
 /*
  * HANYA UNTUK DEVELOPMENT & TES
  * Daftar unsupported handler jika library tidak include di image (tergantung dari graalvm yang digunakan pada saat build)
  * Kasus:
- * - Report bisa tidak berfungsi karena ada beberapa library yang tidak ada (contoh library awt)
  * - Fungsi kafka bisa dinonaktifkan jika server belum tersedia
  */
 public class HandlerSupport {
 	
 	private HandlerSupport() {}
-	
-	/*
-	 * UNSUPPORTED REPORT HANDLER
-	 */
-	public static final ReportHandler UNSUPPORTED_REPORT_HANDLER = new ReportHandler() {
-		@Override
-		public List<ReportType> getReportTypes() {
-			throw new UnsupportedOperationException();
-		}
-		
-		@Override
-		public void exportReport(ReportInput input, OutputStream outputStream) throws Exception {
-			throw new UnsupportedOperationException();
-		}
-		
-		@Override
-		public ReportResult createReport(ReportInput input) throws Exception {
-			throw new UnsupportedOperationException();
-		}
-		
-		@Override
-		public ReportResult createReport(ReportInput input, boolean useExportManager) throws Exception {
-			throw new UnsupportedOperationException();
-		}
-		
-		@Override
-		public JasperPrint createPrint(ReportInput input) throws JRException {
-			throw new UnsupportedOperationException();
-		}
-	};
-	
 	
 	/*
 	 * UNSUPPORTED KAFKA HANDLER
