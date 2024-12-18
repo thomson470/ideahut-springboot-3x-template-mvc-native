@@ -70,8 +70,6 @@ app:
                      
    ignored-handler-classes:
       - org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
-      - org.springframework.web.servlet.NoHandlerFoundException
-      - org.springframework.http.converter.HttpMessageNotWritableException
    
    #
    # Model / Entity yang punya annotation @ForeignKeyEntity akan dieksekusi
