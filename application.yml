@@ -78,7 +78,7 @@ config:
    # Beberapa database tidak support "... on update (CASCADE/SET_NULL)"
    #
    foreignKey:
-      enableExecution: false
+      enableExecution: true
       dropBeforeCreate: true
       onUpdateAction: true 
    
