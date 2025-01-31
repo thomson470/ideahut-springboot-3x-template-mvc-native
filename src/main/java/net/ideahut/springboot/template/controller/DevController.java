@@ -109,18 +109,15 @@ class DevController {
 		.setMethod(RestMethod.valueOf(httpRequest.getMethod().toUpperCase()))
 		.setQueryString(httpRequest.getQueryString());
 		Enumeration<String> en = httpRequest.getHeaderNames();
-		ObjectHelper.runIf(
-			en != null, 
-			() -> {
-				while (en.hasMoreElements()) {
-					String httpHeaderName = en.nextElement();
-					Enumeration<String> httpHeaderValues = httpRequest.getHeaders(httpHeaderName);
-					if (httpHeaderValues != null) {
-						restRequest.setHeaderValues(httpHeaderName, Collections.list(httpHeaderValues));
-					}
+		if (en != null) {
+			while (en.hasMoreElements()) {
+				String httpHeaderName = en.nextElement();
+				Enumeration<String> httpHeaderValues = httpRequest.getHeaders(httpHeaderName);
+				if (httpHeaderValues != null) {
+					restRequest.setHeaderValues(httpHeaderName, Collections.list(httpHeaderValues));
 				}
 			}
-		);
+		}
 		ObjectHelper.callOrElse(
 			!RestMethod.GET.equals(restRequest.getMethod()), 
 			() -> {

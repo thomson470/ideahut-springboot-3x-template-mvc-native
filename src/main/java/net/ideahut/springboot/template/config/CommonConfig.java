@@ -8,11 +8,14 @@ import net.ideahut.springboot.entity.EntityApiExcludeParam;
 import net.ideahut.springboot.entity.EntityAuditParam;
 import net.ideahut.springboot.entity.EntityTrxManager;
 import net.ideahut.springboot.entity.EntityTrxManagerImpl;
+import net.ideahut.springboot.helper.FrameworkHelper;
 import net.ideahut.springboot.job.JobConfigHelper;
 import net.ideahut.springboot.mapper.DataMapper;
 import net.ideahut.springboot.mapper.DataMapperImpl;
 import net.ideahut.springboot.message.entity.Language;
 import net.ideahut.springboot.message.entity.Message;
+import net.ideahut.springboot.serializer.BinarySerializer;
+import net.ideahut.springboot.serializer.FuryBinarySerializer;
 import net.ideahut.springboot.sysparam.entity.SysParam;
 import net.ideahut.springboot.template.properties.AppProperties;
 
@@ -24,7 +27,20 @@ class CommonConfig {
 	 */
 	@Bean
 	DataMapper dataMapper() {
-		return new DataMapperImpl();
+		DataMapper dataMapper = new DataMapperImpl();
+		FrameworkHelper.setDefaultDataMapper(dataMapper);
+		return dataMapper;
+	}
+	
+	
+	/*
+	 * BINARY SERIALIZER
+	 */
+	@Bean
+	BinarySerializer binarySerializer() {
+		BinarySerializer binarySerializer = new FuryBinarySerializer();
+		FrameworkHelper.setDefaultBinarySerializer(binarySerializer);
+		return binarySerializer;
 	}
 	
 	
