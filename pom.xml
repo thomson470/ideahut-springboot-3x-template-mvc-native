@@ -32,7 +32,6 @@
         <version.commons-io>2.17.0</version.commons-io>
         <version.jbcrypt>0.4</version.jbcrypt>
         <version.jjwt>0.12.6</version.jjwt>
-		<version.apache-poi>5.3.0</version.apache-poi>
 		<version.jakarta.mail>2.0.1</version.jakarta.mail>
 		<version.fury>0.9.0</version.fury>
         
@@ -146,19 +145,6 @@
 			<groupId>com.sun.mail</groupId>
 		    <artifactId>jakarta.mail</artifactId>
 		    <version>${version.jakarta.mail}</version>
-		</dependency>
-
-
-		<!-- POI -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>${version.apache-poi}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>${version.apache-poi}</version>
 		</dependency>
 		
 		
