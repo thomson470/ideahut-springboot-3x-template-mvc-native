@@ -201,9 +201,11 @@
 				<artifactId>native-maven-plugin</artifactId>
 				<configuration>
 					<buildArgs>
+						<buildArg>-march=native</buildArg>
+						<buildArg>-J-Xmx8g</buildArg>
+						<buildArg>-R:MaxHeapSize=512m</buildArg>
 						<buildArg>--verbose</buildArg>
-						<buildArg>-Djava.awt.headless=false</buildArg>
-						<buildArg>-H:+ReportUnsupportedElementsAtRuntime</buildArg>
+          				<buildArg>-H:+ReportExceptionStackTraces</buildArg>
 						<buildArg>--initialize-at-build-time=com.ctc.wstx.api.CommonConfig</buildArg>
 						<buildArg>--initialize-at-build-time=com.ctc.wstx.api.ReaderConfig</buildArg>
 						<buildArg>--initialize-at-build-time=com.ctc.wstx.stax.WstxInputFactory</buildArg>
