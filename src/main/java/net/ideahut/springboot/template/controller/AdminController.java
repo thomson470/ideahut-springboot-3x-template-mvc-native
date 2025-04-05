@@ -10,6 +10,7 @@ import net.ideahut.springboot.admin.AdminHandler;
 import net.ideahut.springboot.admin.WebMvcAdminController;
 import net.ideahut.springboot.annotation.ApiExclude;
 import net.ideahut.springboot.mapper.DataMapper;
+import net.ideahut.springboot.security.WebMvcSecurity;
 
 @ApiExclude
 @ComponentScan
@@ -19,24 +20,32 @@ class AdminController extends WebMvcAdminController {
 	
 	private final DataMapper dataMapper;
 	private final AdminHandler adminHandler;
+	private final WebMvcSecurity webMvcSecurity;
 	
 	@Autowired
 	AdminController(
 		DataMapper dataMapper,
-		AdminHandler adminHandler
+		AdminHandler adminHandler,
+		WebMvcSecurity webMvcSecurity
 	) {
 		this.dataMapper = dataMapper;
 		this.adminHandler = adminHandler;
+		this.webMvcSecurity = webMvcSecurity;
+	}
+	
+	@Override
+	protected DataMapper dataMapper() {
+		return dataMapper;
 	}
 	
 	@Override
 	protected AdminHandler adminHandler() {
 		return adminHandler;
 	}
-
+	
 	@Override
-	protected DataMapper dataMapper() {
-		return dataMapper;
+	protected WebMvcSecurity webMvcSecurity() {
+		return webMvcSecurity;
 	}
-
+	
 }
