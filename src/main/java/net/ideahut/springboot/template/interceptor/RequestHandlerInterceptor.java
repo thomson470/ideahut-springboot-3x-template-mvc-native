@@ -111,8 +111,10 @@ class RequestHandlerInterceptor extends WebMvcHandlerInterceptor {
 			}
 		}
 		String auditor = apiAuditor(apiAccess);
-		AuditInfo.context().setAuditor(auditor);
-		RequestContext.currentContext().setAttribute(ApiAccess.CONTEXT, apiAccess);
+		AuditInfo.fromContext().setAuditor(auditor);
+		RequestContext.currentContext()
+		.setAttribute(ApiRequest.class, apiRequest)
+		.setAttribute(ApiAccess.class, apiAccess);
 		return true;
 	}	
 	

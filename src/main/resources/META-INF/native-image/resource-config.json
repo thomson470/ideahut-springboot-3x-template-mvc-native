@@ -21,8 +21,6 @@
   }, {
     "pattern":"\\QMETA-INF/services/com.fasterxml.jackson.databind.Module\\E"
   }, {
-    "pattern":"\\QMETA-INF/services/io.jsonwebtoken.io.Serializer\\E"
-  }, {
     "pattern":"\\QMETA-INF/services/jakarta.activation.spi.MailcapRegistryProvider\\E"
   }, {
     "pattern":"\\QMETA-INF/services/jakarta.activation.spi.MimeTypeRegistryProvider\\E"
@@ -126,6 +124,8 @@
     "pattern":"\\Qorg/quartz/quartz.properties\\E"
   }, {
     "pattern":"\\Qorg/springframework/boot/web/server/mime-mappings.properties\\E"
+  }, {
+    "pattern":"\\Qorg/springframework/http/mime.types\\E"
   }, {
     "pattern":"\\Qorg/springframework/mail/javamail/mime.types\\E"
   }, {

@@ -534,10 +534,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"com.sun.crypto.provider.HmacCore$HmacSHA256",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"com.sun.crypto.provider.HmacCore$HmacSHA384",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
@@ -662,73 +658,6 @@
 },
 {
   "name":"com.zaxxer.hikari.pool.ProxyPreparedStatement"
-},
-{
-  "name":"double",
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.Header",
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.JwsHeader",
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.ProtectedHeader",
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.impl.DefaultHeader",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.impl.DefaultJwsHeader",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "name":"io.jsonwebtoken.impl.DefaultJwtBuilder",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"io.jsonwebtoken.impl.DefaultProtectedHeader",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.impl.ParameterMap",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.impl.lang.Nameable",
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.impl.lang.ParameterReadable",
-  "queryAllDeclaredMethods":true
-},
-{
-  "name":"io.jsonwebtoken.impl.security.KeysBridge"
-},
-{
-  "name":"io.jsonwebtoken.impl.security.StandardKeyOperations",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"io.jsonwebtoken.impl.security.StandardSecureDigestAlgorithms",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"io.jsonwebtoken.jackson.io.JacksonSerializer"
-},
-{
-  "name":"io.jsonwebtoken.security.X509Accessor",
-  "queryAllDeclaredMethods":true
 },
 {
   "name":"io.micrometer.context.ContextSnapshot"
@@ -1393,22 +1322,10 @@
   "name":"java.security.interfaces.ECPublicKey"
 },
 {
-  "name":"java.security.interfaces.EdECKey",
-  "methods":[{"name":"getParams","parameterTypes":[] }]
-},
-{
   "name":"java.security.interfaces.RSAPrivateKey"
 },
 {
   "name":"java.security.interfaces.RSAPublicKey"
-},
-{
-  "name":"java.security.interfaces.XECKey",
-  "methods":[{"name":"getParams","parameterTypes":[] }]
-},
-{
-  "name":"java.security.spec.NamedParameterSpec",
-  "methods":[{"name":"getName","parameterTypes":[] }]
 },
 {
   "name":"java.sql.Date",
@@ -1476,6 +1393,17 @@
 {
   "name":"java.util.Collection",
   "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.Collections$EmptyMap",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"java.util.Collections$EmptyMapHessianDeserializer"
+},
+{
+  "name":"java.util.Collections$EmptyMapHessianSerializer"
 },
 {
   "name":"java.util.Date",
@@ -1716,6 +1644,9 @@
   "name":"jdk.internal.reflect.DelegatingMethodAccessorImpl"
 },
 {
+  "name":"jdk.internal.reflect.GeneratedMethodAccessor567"
+},
+{
   "name":"jdk.internal.reflect.NativeMethodAccessorImpl"
 },
 {
@@ -1938,7 +1869,7 @@
 {
   "name":"net.ideahut.springboot.admin.AdminHandlerImpl",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"auditInfo","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"auditList","parameterTypes":["java.lang.String","byte[]"] }, {"name":"beans","parameterTypes":["net.ideahut.springboot.object.Page","net.ideahut.springboot.object.BeanInfo","java.lang.String"] }, {"name":"cacheClear","parameterTypes":["net.ideahut.springboot.cache.CacheInfo"] }, {"name":"cacheDeleteKeys","parameterTypes":["net.ideahut.springboot.cache.CacheInfo","java.util.Collection"] }, {"name":"cacheGroupInfo","parameterTypes":["java.lang.String"] }, {"name":"cacheKeys","parameterTypes":["net.ideahut.springboot.cache.CacheInfo","net.ideahut.springboot.object.Page"] }, {"name":"cacheSingleInfos","parameterTypes":[] }, {"name":"crud","parameterTypes":["net.ideahut.springboot.crud.CrudAction","byte[]"] }, {"name":"entityGrid","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"entityReplica","parameterTypes":["java.lang.String","java.lang.String","java.lang.Integer"] }, {"name":"getAdminRole","parameterTypes":["java.lang.String"] }, {"name":"getApiPath","parameterTypes":[] }, {"name":"getProperties","parameterTypes":[] }, {"name":"getRedirect","parameterTypes":["net.ideahut.springboot.security.SecurityCredential","java.lang.String","java.util.Map","java.lang.String"] }, {"name":"getSecurityUser","parameterTypes":["java.lang.String"] }, {"name":"getWebCacheMaxAge","parameterTypes":[] }, {"name":"getWebLocation","parameterTypes":[] }, {"name":"getWebPath","parameterTypes":[] }, {"name":"grid","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"info","parameterTypes":[] }, {"name":"isAdminPath","parameterTypes":["java.lang.String"] }, {"name":"isBeanConfigured","parameterTypes":[] }, {"name":"isWebEnabled","parameterTypes":[] }, {"name":"isWebResourceChain","parameterTypes":[] }, {"name":"kafkaConsumers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaContainerProperties","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStart","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStop","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaContainers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaDeleteConsumerGroup","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaListenerProperties","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"kafkaListeners","parameterTypes":["java.lang.String","java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaProducers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaSenderProperties","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStart","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStop","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaSenders","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"managerEntities","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.admin.AdminTrxManagerInfo$Entity","java.lang.String"] }, {"name":"managerEntity","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"managerInfo","parameterTypes":["java.lang.String"] }, {"name":"menus","parameterTypes":[] }, {"name":"onConfigureBean","parameterTypes":["org.springframework.context.ApplicationContext"] }, {"name":"onInitMapper","parameterTypes":[] }, {"name":"onReloadBean","parameterTypes":[] }, {"name":"onShutdownBean","parameterTypes":[] }, {"name":"redisClients","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page"] }, {"name":"redisFlushAll","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"redisFlushDb","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"redisInfos","parameterTypes":[] }, {"name":"redisPreFlushAll","parameterTypes":["java.lang.String"] }, {"name":"redisPreFlushDb","parameterTypes":["java.lang.String"] }, {"name":"redisProperties","parameterTypes":["java.lang.String"] }, {"name":"reload","parameterTypes":[] }, {"name":"reload","parameterTypes":["java.lang.String"] }, {"name":"requestList","parameterTypes":["net.ideahut.springboot.object.Page","net.ideahut.springboot.object.RequestInfo$Search","java.lang.String"] }, {"name":"schedulerAdd","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerDelete","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerGroups","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","java.lang.Boolean","java.lang.String"] }, {"name":"schedulerMetadata","parameterTypes":["java.lang.String"] }, {"name":"schedulerPackages","parameterTypes":["java.lang.String"] }, {"name":"schedulerPause","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerReset","parameterTypes":["java.lang.String"] }, {"name":"schedulerResume","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerRunning","parameterTypes":["java.lang.String"] }, {"name":"schedulerStart","parameterTypes":["java.lang.String"] }, {"name":"schedulerStop","parameterTypes":["java.lang.String"] }, {"name":"schedulerTrigger","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerTriggers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","java.lang.Boolean","java.lang.String","java.lang.String"] }, {"name":"sysProps","parameterTypes":[] }, {"name":"taskInfo","parameterTypes":["java.lang.String"] }, {"name":"taskInfos","parameterTypes":[] }]
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"auditInfo","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"auditList","parameterTypes":["java.lang.String","byte[]"] }, {"name":"beans","parameterTypes":["net.ideahut.springboot.object.Page","net.ideahut.springboot.object.BeanInfo","java.lang.String"] }, {"name":"cacheClear","parameterTypes":["net.ideahut.springboot.cache.CacheInfo"] }, {"name":"cacheDeleteKeys","parameterTypes":["net.ideahut.springboot.cache.CacheInfo","java.util.Collection"] }, {"name":"cacheGroupInfo","parameterTypes":["java.lang.String"] }, {"name":"cacheKeys","parameterTypes":["net.ideahut.springboot.cache.CacheInfo","net.ideahut.springboot.object.Page"] }, {"name":"cacheSingleInfos","parameterTypes":[] }, {"name":"crud","parameterTypes":["net.ideahut.springboot.crud.CrudAction","byte[]"] }, {"name":"entityGrid","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"entityReplica","parameterTypes":["java.lang.String","java.lang.String","java.lang.Integer"] }, {"name":"getAdminRole","parameterTypes":["java.lang.String"] }, {"name":"getApiPath","parameterTypes":[] }, {"name":"getProperties","parameterTypes":[] }, {"name":"getRedirect","parameterTypes":["net.ideahut.springboot.security.SecurityCredential","java.lang.String","java.util.Map","java.lang.String"] }, {"name":"getSecurityUser","parameterTypes":["java.lang.String"] }, {"name":"getWebCacheMaxAge","parameterTypes":[] }, {"name":"getWebLocation","parameterTypes":[] }, {"name":"getWebPath","parameterTypes":[] }, {"name":"grid","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"info","parameterTypes":[] }, {"name":"isAdminPath","parameterTypes":["java.lang.String"] }, {"name":"isBeanConfigured","parameterTypes":[] }, {"name":"isWebEnabled","parameterTypes":[] }, {"name":"isWebResourceChain","parameterTypes":[] }, {"name":"kafkaConsumers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaContainerProperties","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStart","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStop","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaContainers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaDeleteConsumerGroup","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaListenerProperties","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"kafkaListeners","parameterTypes":["java.lang.String","java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaProducers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"kafkaSenderProperties","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStart","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStop","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"kafkaSenders","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.kafka.KafkaInfo$Search","java.lang.String"] }, {"name":"managerEntities","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","net.ideahut.springboot.admin.AdminTrxManagerInfo$Entity","java.lang.String"] }, {"name":"managerEntity","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"managerInfo","parameterTypes":["java.lang.String"] }, {"name":"menus","parameterTypes":[] }, {"name":"onConfigureBean","parameterTypes":["org.springframework.context.ApplicationContext"] }, {"name":"onInitMapper","parameterTypes":[] }, {"name":"onReloadBean","parameterTypes":[] }, {"name":"onShutdownBean","parameterTypes":[] }, {"name":"redisClients","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page"] }, {"name":"redisFlushAll","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"redisFlushDb","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"redisInfos","parameterTypes":[] }, {"name":"redisPreFlushAll","parameterTypes":["java.lang.String"] }, {"name":"redisPreFlushDb","parameterTypes":["java.lang.String"] }, {"name":"redisProperties","parameterTypes":["java.lang.String"] }, {"name":"reload","parameterTypes":[] }, {"name":"reload","parameterTypes":["java.lang.String"] }, {"name":"requestList","parameterTypes":["net.ideahut.springboot.object.Page","net.ideahut.springboot.object.RequestInfo$Search","java.lang.String"] }, {"name":"schedulerAdd","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerDelete","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerGroups","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","java.lang.Boolean","java.lang.String"] }, {"name":"schedulerMetadata","parameterTypes":["java.lang.String"] }, {"name":"schedulerPackages","parameterTypes":["java.lang.String"] }, {"name":"schedulerPause","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerResetLocking","parameterTypes":["java.lang.String"] }, {"name":"schedulerResetRunning","parameterTypes":["java.lang.String"] }, {"name":"schedulerResume","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerRunning","parameterTypes":["java.lang.String"] }, {"name":"schedulerStart","parameterTypes":["java.lang.String"] }, {"name":"schedulerStop","parameterTypes":["java.lang.String"] }, {"name":"schedulerTrigger","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"schedulerTriggers","parameterTypes":["java.lang.String","net.ideahut.springboot.object.Page","java.lang.Boolean","java.lang.String","java.lang.String"] }, {"name":"sysProps","parameterTypes":[] }, {"name":"taskInfo","parameterTypes":["java.lang.String"] }, {"name":"taskInfos","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.admin.AdminManager",
@@ -1957,7 +1888,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApi","parameterTypes":[] }, {"name":"getCentral","parameterTypes":[] }, {"name":"getCollectDatabaseMetadata","parameterTypes":[] }, {"name":"getCrud","parameterTypes":[] }, {"name":"getGrid","parameterTypes":[] }, {"name":"getModules","parameterTypes":[] }, {"name":"getRole","parameterTypes":[] }, {"name":"getShowOnlyExecutableRedis","parameterTypes":[] }, {"name":"getWaitForJobsToCompleteWhenStopScheduler","parameterTypes":[] }, {"name":"getWeb","parameterTypes":[] }, {"name":"setApi","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Api"] }, {"name":"setCentral","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Central"] }, {"name":"setCollectDatabaseMetadata","parameterTypes":["java.lang.Boolean"] }, {"name":"setCrud","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Crud"] }, {"name":"setGrid","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Grid"] }, {"name":"setModules","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Modules"] }, {"name":"setShowOnlyExecutableRedis","parameterTypes":["java.lang.Boolean"] }, {"name":"setWaitForJobsToCompleteWhenStopScheduler","parameterTypes":["java.lang.Boolean"] }, {"name":"setWeb","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Web"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApi","parameterTypes":[] }, {"name":"getCentral","parameterTypes":[] }, {"name":"getCollectDatabaseMetadata","parameterTypes":[] }, {"name":"getCrud","parameterTypes":[] }, {"name":"getGrid","parameterTypes":[] }, {"name":"getModules","parameterTypes":[] }, {"name":"getRole","parameterTypes":[] }, {"name":"getShowOnlyExecutableRedis","parameterTypes":[] }, {"name":"getWaitForJobsToCompleteWhenStopScheduler","parameterTypes":[] }, {"name":"getWeb","parameterTypes":[] }, {"name":"setApi","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Api"] }, {"name":"setCentral","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Central"] }, {"name":"setCollectDatabaseMetadata","parameterTypes":["java.lang.Boolean"] }, {"name":"setCrud","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Crud"] }, {"name":"setGrid","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Grid"] }, {"name":"setModules","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Modules"] }, {"name":"setRole","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Role"] }, {"name":"setShowOnlyExecutableRedis","parameterTypes":["java.lang.Boolean"] }, {"name":"setWaitForJobsToCompleteWhenStopScheduler","parameterTypes":["java.lang.Boolean"] }, {"name":"setWeb","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Web"] }]
 },
 {
   "name":"net.ideahut.springboot.admin.AdminProperties$Api",
@@ -2005,63 +1936,100 @@
   "name":"net.ideahut.springboot.admin.AdminProperties$Role",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setDefinitionFile","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.admin.AdminProperties$Web",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAllowedPaths","parameterTypes":[] }, {"name":"getAlwaysToIndex","parameterTypes":[] }, {"name":"getAuthParameter","parameterTypes":[] }, {"name":"getColor","parameterTypes":[] }, {"name":"getIndexFile","parameterTypes":[] }, {"name":"getRedirectParameter","parameterTypes":[] }, {"name":"getTitle","parameterTypes":[] }, {"name":"setAllowedPaths","parameterTypes":["java.util.Set"] }, {"name":"setAlwaysToIndex","parameterTypes":["java.lang.Boolean"] }, {"name":"setIndexFile","parameterTypes":["java.lang.String"] }, {"name":"setTitle","parameterTypes":["java.lang.String"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAllowedPaths","parameterTypes":[] }, {"name":"getAlwaysToIndex","parameterTypes":[] }, {"name":"getAuthParameter","parameterTypes":[] }, {"name":"getColor","parameterTypes":[] }, {"name":"getIndexFile","parameterTypes":[] }, {"name":"getRedirectParameter","parameterTypes":[] }, {"name":"getTitle","parameterTypes":[] }, {"name":"setAllowedPaths","parameterTypes":["java.util.Set"] }, {"name":"setAlwaysToIndex","parameterTypes":["java.lang.Boolean"] }, {"name":"setColor","parameterTypes":["net.ideahut.springboot.admin.AdminProperties$Web$Color"] }, {"name":"setIndexFile","parameterTypes":["java.lang.String"] }, {"name":"setTitle","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.admin.AdminProperties$Web$Color",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAccent","parameterTypes":[] }, {"name":"getDark","parameterTypes":[] }, {"name":"getHeader","parameterTypes":[] }, {"name":"getInfo","parameterTypes":[] }, {"name":"getNegative","parameterTypes":[] }, {"name":"getPositive","parameterTypes":[] }, {"name":"getPrimary","parameterTypes":[] }, {"name":"getSecondary","parameterTypes":[] }, {"name":"getTitle","parameterTypes":[] }, {"name":"getWarning","parameterTypes":[] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAccent","parameterTypes":[] }, {"name":"getDark","parameterTypes":[] }, {"name":"getHeader","parameterTypes":[] }, {"name":"getInfo","parameterTypes":[] }, {"name":"getNegative","parameterTypes":[] }, {"name":"getPositive","parameterTypes":[] }, {"name":"getPrimary","parameterTypes":[] }, {"name":"getSecondary","parameterTypes":[] }, {"name":"getTitle","parameterTypes":[] }, {"name":"getWarning","parameterTypes":[] }, {"name":"setAccent","parameterTypes":["java.lang.String"] }, {"name":"setDark","parameterTypes":["java.lang.String"] }, {"name":"setHeader","parameterTypes":["java.lang.String"] }, {"name":"setInfo","parameterTypes":["java.lang.String"] }, {"name":"setNegative","parameterTypes":["java.lang.String"] }, {"name":"setPositive","parameterTypes":["java.lang.String"] }, {"name":"setPrimary","parameterTypes":["java.lang.String"] }, {"name":"setSecondary","parameterTypes":["java.lang.String"] }, {"name":"setTitle","parameterTypes":["java.lang.String"] }, {"name":"setWarning","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getCache","parameterTypes":[] }, {"name":"getGrid","parameterTypes":[] }, {"name":"getKafka","parameterTypes":[] }, {"name":"getRedis","parameterTypes":[] }, {"name":"getReload","parameterTypes":[] }, {"name":"getScheduler","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getCache","parameterTypes":[] }, {"name":"getGrid","parameterTypes":[] }, {"name":"getKafka","parameterTypes":[] }, {"name":"getRedis","parameterTypes":[] }, {"name":"getReload","parameterTypes":[] }, {"name":"getScheduler","parameterTypes":[] }, {"name":"setCache","parameterTypes":["net.ideahut.springboot.admin.AdminRole$Cache"] }, {"name":"setGrid","parameterTypes":["net.ideahut.springboot.admin.AdminRole$Grid"] }, {"name":"setKafka","parameterTypes":["net.ideahut.springboot.admin.AdminRole$Kafka"] }, {"name":"setRedis","parameterTypes":["net.ideahut.springboot.admin.AdminRole$Redis"] }, {"name":"setReload","parameterTypes":["net.ideahut.springboot.admin.AdminRole$Reload"] }, {"name":"setScheduler","parameterTypes":["net.ideahut.springboot.admin.AdminRole$Scheduler"] }]
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$Cache",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getSingle","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getSingle","parameterTypes":[] }, {"name":"setGroup","parameterTypes":["net.ideahut.springboot.admin.AdminRole$TypeCache"] }, {"name":"setSingle","parameterTypes":["net.ideahut.springboot.admin.AdminRole$TypeCache"] }]
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$CacheHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$CacheHessianSerializer"
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$Grid",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getActions","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getActions","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }, {"name":"setActions","parameterTypes":["java.util.Set"] }, {"name":"setItems","parameterTypes":["java.util.Map"] }]
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$GridHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$GridHessianSerializer"
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$Kafka",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }, {"name":"setContainerControl","parameterTypes":["java.lang.Boolean"] }, {"name":"setGroupDelete","parameterTypes":["java.lang.Boolean"] }, {"name":"setSenderControl","parameterTypes":["java.lang.Boolean"] }]
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$KafkaHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$KafkaHessianSerializer"
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$Redis",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }, {"name":"setFlushAll","parameterTypes":["java.lang.Boolean"] }, {"name":"setFlushDb","parameterTypes":["java.lang.Boolean"] }, {"name":"setItems","parameterTypes":["java.util.Map"] }]
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$RedisHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$RedisHessianSerializer"
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$Reload",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getEnable","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getEnable","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }, {"name":"setEnable","parameterTypes":["java.lang.Boolean"] }]
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$ReloadHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$ReloadHessianSerializer"
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$RuleCache",
@@ -2089,21 +2057,41 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getControl","parameterTypes":[] }, {"name":"getPause","parameterTypes":[] }, {"name":"getReset","parameterTypes":[] }, {"name":"getSchedule","parameterTypes":[] }, {"name":"getTrigger","parameterTypes":[] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getControl","parameterTypes":[] }, {"name":"getPause","parameterTypes":[] }, {"name":"getResetLocking","parameterTypes":[] }, {"name":"getResetRunning","parameterTypes":[] }, {"name":"getSchedule","parameterTypes":[] }, {"name":"getTrigger","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$Scheduler",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }, {"name":"setControl","parameterTypes":["java.lang.Boolean"] }, {"name":"setPause","parameterTypes":["java.lang.Boolean"] }, {"name":"setResetLocking","parameterTypes":["java.lang.Boolean"] }, {"name":"setResetRunning","parameterTypes":["java.lang.Boolean"] }, {"name":"setSchedule","parameterTypes":["java.lang.Boolean"] }, {"name":"setTrigger","parameterTypes":["java.lang.Boolean"] }]
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$SchedulerHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$SchedulerHessianSerializer"
 },
 {
   "name":"net.ideahut.springboot.admin.AdminRole$TypeCache",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }]
+  "unsafeAllocated":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }, {"name":"setClear","parameterTypes":["java.lang.Boolean"] }, {"name":"setDelete","parameterTypes":["java.lang.Boolean"] }, {"name":"setItems","parameterTypes":["java.util.Map"] }]
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$TypeCacheHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRole$TypeCacheHessianSerializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRoleHessianDeserializer"
+},
+{
+  "name":"net.ideahut.springboot.admin.AdminRoleHessianSerializer"
 },
 {
   "name":"net.ideahut.springboot.admin.AdminTrxManagerInfo",
@@ -2132,7 +2120,6 @@
   "name":"net.ideahut.springboot.admin.AdminTrxManagerInfo$Id",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"setFields","parameterTypes":["java.util.List"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setType","parameterTypes":["net.ideahut.springboot.entity.EntityIdType"] }]
 },
@@ -2150,18 +2137,25 @@
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setIndex","parameterTypes":["java.lang.Integer"] }, {"name":"setInfo","parameterTypes":["net.ideahut.springboot.cache.CacheInfo"] }, {"name":"setKeys","parameterTypes":["java.util.List"] }, {"name":"setSize","parameterTypes":["java.lang.Integer"] }]
 },
 {
+  "name":"net.ideahut.springboot.admin.HelperAudit"
+},
+{
   "name":"net.ideahut.springboot.admin.HelperKafka"
 },
 {
   "name":"net.ideahut.springboot.admin.HelperKafka1"
 },
 {
-  "name":"net.ideahut.springboot.admin.HelperScheduler"
+  "name":"net.ideahut.springboot.admin.HelperRole$InAdminRole",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.admin.WebMvcAdminController",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"auditList","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"cacheClear","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"cacheDelete","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"cacheKeys","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"check","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse"] }, {"name":"crud","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"grid","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStart","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStop","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaDeleteConsumerGroup","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStart","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStop","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"redisFlushAll","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"redisFlushAll","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"redisFlushDb","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"redisFlushDb","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"reload","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerAdd","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerDelete","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerPause","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerReset","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerResume","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerStart","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerStop","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerTrigger","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }]
+  "methods":[{"name":"auditList","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"cacheClear","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"cacheDelete","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"cacheKeys","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"check","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse"] }, {"name":"crud","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"grid","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStart","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaContainerStop","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaDeleteConsumerGroup","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStart","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"kafkaSenderStop","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"redisFlushAll","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"redisFlushAll","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"redisFlushDb","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"redisFlushDb","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"reload","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerAdd","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerDelete","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerPause","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerResetLocking","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerResetRunning","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerResume","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"schedulerStart","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerStop","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"schedulerTrigger","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.admin.WebMvcAdminSecurity",
@@ -2198,7 +2192,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiKey","parameterTypes":[] }, {"name":"getApiRole","parameterTypes":[] }, {"name":"getApiUser","parameterTypes":[] }, {"name":"getConsumerId","parameterTypes":[] }, {"name":"getCreatedOn","parameterTypes":[] }, {"name":"getExpiredOn","parameterTypes":[] }, {"name":"getIsConsumer","parameterTypes":[] }, {"name":"getServiceRole","parameterTypes":[] }, {"name":"setApiKey","parameterTypes":["java.lang.String"] }, {"name":"setApiUser","parameterTypes":["net.ideahut.springboot.api.ApiUser"] }, {"name":"setCreatedOn","parameterTypes":["java.lang.Long"] }, {"name":"setExpiredOn","parameterTypes":["java.lang.Long"] }, {"name":"setServiceRole","parameterTypes":["net.ideahut.springboot.object.StringMap"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiKey","parameterTypes":[] }, {"name":"getApiRole","parameterTypes":[] }, {"name":"getApiUser","parameterTypes":[] }, {"name":"getConsumerId","parameterTypes":[] }, {"name":"getCreatedOn","parameterTypes":[] }, {"name":"getExpiredOn","parameterTypes":[] }, {"name":"getIsConsumer","parameterTypes":[] }, {"name":"getServiceRole","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiAccess$Attribute",
@@ -2218,16 +2212,6 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiAccess","parameterTypes":[] }, {"name":"getApiKey","parameterTypes":[] }, {"name":"getHeaders","parameterTypes":[] }, {"name":"getScheme","parameterTypes":[] }, {"name":"getToken","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.api.ApiConsumerService",
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true
-},
-{
-  "name":"net.ideahut.springboot.api.ApiConsumerServiceImpl",
-  "queryAllDeclaredMethods":true,
-  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"call","parameterTypes":["net.ideahut.springboot.api.ApiConsumerRequest"] }, {"name":"token","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiEntityClass",
@@ -2275,7 +2259,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiKey","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getApiRequest","parameterTypes":[] }, {"name":"getApiType","parameterTypes":[] }, {"name":"getContent","parameterTypes":[] }, {"name":"getInternalId","parameterTypes":[] }, {"name":"getKeyIndex","parameterTypes":[] }, {"name":"getScheme","parameterTypes":[] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiKey","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getApiRequest","parameterTypes":[] }, {"name":"getApiType","parameterTypes":[] }, {"name":"getContent","parameterTypes":[] }, {"name":"getKeyIndex","parameterTypes":[] }, {"name":"getScheme","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiRedisExpiry",
@@ -2297,11 +2281,9 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"net.ideahut.springboot.api.ApiService2"
-},
-{
   "name":"net.ideahut.springboot.api.ApiServiceImpl",
-  "queryAllDeclaredMethods":true
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"callApiEndpoint","parameterTypes":["java.lang.String","net.ideahut.springboot.rest.RestRequest","java.lang.String"] }, {"name":"callApiEndpoint","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.rest.RestRequest","java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiSource",
@@ -2318,6 +2300,11 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"net.ideahut.springboot.api.ApiTokenInternal",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
   "name":"net.ideahut.springboot.api.ApiTokenService",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
@@ -2325,14 +2312,14 @@
 {
   "name":"net.ideahut.springboot.api.ApiTokenServiceImpl",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"createConsumerToken","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiHeaderValue","net.ideahut.springboot.api.ApiRequest"] }, {"name":"createJwtProcessorToken","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiAccess"] }, {"name":"getConsumerApiAccess","parameterTypes":["net.ideahut.springboot.api.ApiSource","java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["com.fasterxml.jackson.core.type.TypeReference","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["java.lang.Class","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtProcessorApiAccess","parameterTypes":["net.ideahut.springboot.api.ApiSource","java.lang.String"] }, {"name":"getJwtSecretKey","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"validateSignature","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiHeaderValue"] }]
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"createConsumerApiToken","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiRequest"] }, {"name":"createJwtProcessorAccessToken","parameterTypes":["net.ideahut.springboot.api.ApiAccess"] }, {"name":"getApiToken","parameterTypes":["java.lang.String"] }, {"name":"getApiTokenStorageIndex","parameterTypes":[] }, {"name":"getConsumerApiAccess","parameterTypes":["java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["com.fasterxml.jackson.core.type.TypeReference","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["java.lang.Class","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtProcessorApiAccess","parameterTypes":["java.lang.String"] }, {"name":"getJwtSecretKey","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"isUseApiTokenInProcessor","parameterTypes":[] }, {"name":"resetApiToken","parameterTypes":["java.lang.String"] }, {"name":"retrieveApiToken","parameterTypes":["net.ideahut.springboot.api.ApiService","java.lang.String"] }, {"name":"validateSignature","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiHeaderValue"] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiUser",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getId","parameterTypes":[] }, {"name":"getUsername","parameterTypes":[] }, {"name":"setId","parameterTypes":["java.lang.String"] }, {"name":"setUsername","parameterTypes":["java.lang.String"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getId","parameterTypes":[] }, {"name":"getUsername","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiUser$Attribute",
@@ -2349,7 +2336,7 @@
 {
   "name":"net.ideahut.springboot.api.WebMvcApiServiceImpl",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"call","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.rest.RestRequest"] }, {"name":"getApiAccess","parameterTypes":["net.ideahut.springboot.api.ApiRequest"] }, {"name":"getApiAccessRemoteService","parameterTypes":[] }, {"name":"getApiCrudProperties","parameterTypes":["net.ideahut.springboot.api.ApiAccess","java.lang.String"] }, {"name":"getApiHandler","parameterTypes":[] }, {"name":"getApiHeaderName","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getApiParameter","parameterTypes":["net.ideahut.springboot.api.ApiRequest"] }, {"name":"getApiProcessor","parameterTypes":["java.lang.String"] }, {"name":"getApiRequest","parameterTypes":["jakarta.servlet.http.HttpServletRequest","boolean"] }, {"name":"getApiSource","parameterTypes":["java.lang.String"] }, {"name":"getApiTokenService","parameterTypes":[] }, {"name":"getDefaultDigest","parameterTypes":[] }, {"name":"isApiAccessAllowed","parameterTypes":["net.ideahut.springboot.api.ApiAccess","org.springframework.web.method.HandlerMethod"] }, {"name":"isBeanConfigured","parameterTypes":[] }, {"name":"onConfigureBean","parameterTypes":["org.springframework.context.ApplicationContext"] }, {"name":"removeApiAccess","parameterTypes":["java.lang.Integer","java.lang.String[]"] }, {"name":"setApiAccessInternalService","parameterTypes":["net.ideahut.springboot.api.ApiAccessInternalService"] }, {"name":"setApiAccessRemoteService","parameterTypes":["net.ideahut.springboot.api.ApiAccessRemoteService"] }, {"name":"setApiHandler","parameterTypes":["net.ideahut.springboot.api.ApiHandler"] }, {"name":"setApiName","parameterTypes":["java.lang.String"] }, {"name":"setApiProcessors","parameterTypes":["java.util.Collection"] }, {"name":"setApiRestClientCreator","parameterTypes":["net.ideahut.springboot.api.ApiRestClientCreator"] }, {"name":"setApiSourceService","parameterTypes":["net.ideahut.springboot.api.ApiSourceService"] }, {"name":"setApiTokenService","parameterTypes":["net.ideahut.springboot.api.ApiTokenService"] }, {"name":"setBinarySerializer","parameterTypes":["net.ideahut.springboot.serializer.BinarySerializer"] }, {"name":"setConsumerTokenIndex","parameterTypes":["java.lang.Integer"] }, {"name":"setDefaultDigest","parameterTypes":["java.lang.String"] }, {"name":"setHeaderName","parameterTypes":["net.ideahut.springboot.api.ApiHeaderName"] }, {"name":"setRedisExpiry","parameterTypes":["net.ideahut.springboot.api.ApiRedisExpiry"] }, {"name":"setRedisParam","parameterTypes":["net.ideahut.springboot.redis.RedisParam"] }, {"name":"setRestHandler","parameterTypes":["net.ideahut.springboot.rest.RestHandler"] }]
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"callApiEndpoint","parameterTypes":["java.lang.String","net.ideahut.springboot.rest.RestRequest","java.lang.String"] }, {"name":"callApiEndpoint","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.rest.RestRequest","java.lang.String"] }, {"name":"getApiAccess","parameterTypes":["net.ideahut.springboot.api.ApiRequest"] }, {"name":"getApiAccessRemoteService","parameterTypes":[] }, {"name":"getApiCrudProperties","parameterTypes":["net.ideahut.springboot.api.ApiAccess","java.lang.String"] }, {"name":"getApiHandler","parameterTypes":[] }, {"name":"getApiHeaderName","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getApiParameter","parameterTypes":["net.ideahut.springboot.api.ApiRequest"] }, {"name":"getApiProcessor","parameterTypes":["java.lang.String"] }, {"name":"getApiRequest","parameterTypes":["jakarta.servlet.http.HttpServletRequest","boolean"] }, {"name":"getApiSource","parameterTypes":["java.lang.String"] }, {"name":"getApiTokenService","parameterTypes":[] }, {"name":"isApiAccessAllowed","parameterTypes":["net.ideahut.springboot.api.ApiAccess","org.springframework.web.method.HandlerMethod"] }, {"name":"isBeanConfigured","parameterTypes":[] }, {"name":"onConfigureBean","parameterTypes":["org.springframework.context.ApplicationContext"] }, {"name":"removeApiAccess","parameterTypes":["java.lang.Integer","java.lang.String[]"] }, {"name":"setApiAccessInternalService","parameterTypes":["net.ideahut.springboot.api.ApiAccessInternalService"] }, {"name":"setApiAccessRemoteService","parameterTypes":["net.ideahut.springboot.api.ApiAccessRemoteService"] }, {"name":"setApiHandler","parameterTypes":["net.ideahut.springboot.api.ApiHandler"] }, {"name":"setApiName","parameterTypes":["java.lang.String"] }, {"name":"setApiProcessors","parameterTypes":["java.util.Collection"] }, {"name":"setApiRestClientCreator","parameterTypes":["net.ideahut.springboot.api.ApiRestClientCreator"] }, {"name":"setApiSourceService","parameterTypes":["net.ideahut.springboot.api.ApiSourceService"] }, {"name":"setApiTokenService","parameterTypes":["net.ideahut.springboot.api.ApiTokenService"] }, {"name":"setBinarySerializer","parameterTypes":["net.ideahut.springboot.serializer.BinarySerializer"] }, {"name":"setHeaderName","parameterTypes":["net.ideahut.springboot.api.ApiHeaderName"] }, {"name":"setRedisExpiry","parameterTypes":["net.ideahut.springboot.api.ApiRedisExpiry"] }, {"name":"setRedisParam","parameterTypes":["net.ideahut.springboot.redis.RedisParam"] }, {"name":"setRestHandler","parameterTypes":["net.ideahut.springboot.rest.RestHandler"] }]
 },
 {
   "name":"net.ideahut.springboot.api.dto.ApiCrudDto",
@@ -2426,7 +2413,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getClassName","parameterTypes":[] }, {"name":"getConsumes","parameterTypes":[] }, {"name":"getFunctionName","parameterTypes":[] }, {"name":"getMethods","parameterTypes":[] }, {"name":"getPackageName","parameterTypes":[] }, {"name":"getParameterCount","parameterTypes":[] }, {"name":"getPatterns","parameterTypes":[] }, {"name":"getProduces","parameterTypes":[] }, {"name":"setApiName","parameterTypes":["java.lang.String"] }, {"name":"setClassName","parameterTypes":["java.lang.String"] }, {"name":"setConsumes","parameterTypes":["java.lang.String"] }, {"name":"setFunctionName","parameterTypes":["java.lang.String"] }, {"name":"setMethods","parameterTypes":["java.lang.String"] }, {"name":"setPackageName","parameterTypes":["java.lang.String"] }, {"name":"setParameterCount","parameterTypes":["java.lang.Integer"] }, {"name":"setPatterns","parameterTypes":["java.lang.String"] }, {"name":"setProduces","parameterTypes":["java.lang.String"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getClassName","parameterTypes":[] }, {"name":"getConsumes","parameterTypes":[] }, {"name":"getFunctionName","parameterTypes":[] }, {"name":"getMethods","parameterTypes":[] }, {"name":"getPackageName","parameterTypes":[] }, {"name":"getParameterCount","parameterTypes":[] }, {"name":"getPatterns","parameterTypes":[] }, {"name":"getProduces","parameterTypes":[] }, {"name":"setApiName","parameterTypes":["java.lang.String"] }, {"name":"setClassName","parameterTypes":["java.lang.String"] }, {"name":"setFunctionName","parameterTypes":["java.lang.String"] }, {"name":"setPackageName","parameterTypes":["java.lang.String"] }, {"name":"setParameterCount","parameterTypes":["java.lang.Integer"] }]
 },
 {
   "name":"net.ideahut.springboot.api.dto.ApiProviderRoleDto",
@@ -2454,7 +2441,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiRoleCrud","parameterTypes":[] }, {"name":"getFieldName","parameterTypes":[] }, {"name":"getFilterId","parameterTypes":[] }, {"name":"getFilterValue","parameterTypes":[] }, {"name":"getIsPlainValue","parameterTypes":[] }, {"name":"setFieldName","parameterTypes":["java.lang.String"] }, {"name":"setFilterId","parameterTypes":["java.lang.String"] }, {"name":"setFilterValue","parameterTypes":["java.lang.String"] }, {"name":"setIsPlainValue","parameterTypes":["java.lang.Character"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiRoleCrud","parameterTypes":[] }, {"name":"getFieldName","parameterTypes":[] }, {"name":"getFilterId","parameterTypes":[] }, {"name":"getFilterValue","parameterTypes":[] }, {"name":"getIsPlainValue","parameterTypes":[] }, {"name":"setFieldName","parameterTypes":["java.lang.String"] }, {"name":"setFilterValue","parameterTypes":["java.lang.String"] }, {"name":"setIsPlainValue","parameterTypes":["java.lang.Character"] }]
 },
 {
   "name":"net.ideahut.springboot.api.dto.ApiRoleDto",
@@ -2468,10 +2455,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiRoleCode","parameterTypes":[] }, {"name":"getClassName","parameterTypes":[] }, {"name":"getConsumes","parameterTypes":[] }, {"name":"getFunctionName","parameterTypes":[] }, {"name":"getMethods","parameterTypes":[] }, {"name":"getPackageName","parameterTypes":[] }, {"name":"getParameterCount","parameterTypes":[] }, {"name":"getPatterns","parameterTypes":[] }, {"name":"getProduces","parameterTypes":[] }, {"name":"setApiRoleCode","parameterTypes":["java.lang.String"] }, {"name":"setClassName","parameterTypes":["java.lang.String"] }, {"name":"setConsumes","parameterTypes":["java.lang.String"] }, {"name":"setFunctionName","parameterTypes":["java.lang.String"] }, {"name":"setMethods","parameterTypes":["java.lang.String"] }, {"name":"setPackageName","parameterTypes":["java.lang.String"] }, {"name":"setParameterCount","parameterTypes":["java.lang.Integer"] }, {"name":"setPatterns","parameterTypes":["java.lang.String"] }, {"name":"setProduces","parameterTypes":["java.lang.String"] }]
-},
-{
-  "name":"net.ideahut.springboot.api.dto.ApiRoleRequestDtoHessianSerializer"
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiRoleCode","parameterTypes":[] }, {"name":"getClassName","parameterTypes":[] }, {"name":"getConsumes","parameterTypes":[] }, {"name":"getFunctionName","parameterTypes":[] }, {"name":"getMethods","parameterTypes":[] }, {"name":"getPackageName","parameterTypes":[] }, {"name":"getParameterCount","parameterTypes":[] }, {"name":"getPatterns","parameterTypes":[] }, {"name":"getProduces","parameterTypes":[] }, {"name":"setApiRoleCode","parameterTypes":["java.lang.String"] }, {"name":"setClassName","parameterTypes":["java.lang.String"] }, {"name":"setFunctionName","parameterTypes":["java.lang.String"] }, {"name":"setPackageName","parameterTypes":["java.lang.String"] }, {"name":"setParameterCount","parameterTypes":["java.lang.Integer"] }]
 },
 {
   "name":"net.ideahut.springboot.api.entity.ApiCrud",
@@ -2793,6 +2777,9 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"net.ideahut.springboot.audit.MultiTableHelper"
+},
+{
   "name":"net.ideahut.springboot.bean.BeanConfigure",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
@@ -2885,6 +2872,13 @@
   "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"execute","parameterTypes":["net.ideahut.springboot.crud.CrudAction","net.ideahut.springboot.crud.CrudRequest"] }, {"name":"getCrudResource","parameterTypes":[] }, {"name":"getEntityTrxManager","parameterTypes":[] }, {"name":"getRequest","parameterTypes":["byte[]"] }, {"name":"onInitMapper","parameterTypes":[] }]
 },
 {
+  "name":"net.ideahut.springboot.crud.CrudMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getFlat","parameterTypes":[] }, {"name":"getKeys","parameterTypes":[] }, {"name":"setFlat","parameterTypes":["java.lang.Boolean"] }, {"name":"setKeys","parameterTypes":["java.util.List"] }]
+},
+{
   "name":"net.ideahut.springboot.crud.CrudPermission",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
@@ -2907,14 +2901,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getFilters","parameterTypes":[] }, {"name":"getIds","parameterTypes":[] }, {"name":"getJoins","parameterTypes":[] }, {"name":"getLimit","parameterTypes":[] }, {"name":"getLoads","parameterTypes":[] }, {"name":"getManager","parameterTypes":[] }, {"name":"getMap","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getOrders","parameterTypes":[] }, {"name":"getPage","parameterTypes":[] }, {"name":"getReplica","parameterTypes":[] }, {"name":"getStacks","parameterTypes":[] }, {"name":"getStart","parameterTypes":[] }, {"name":"getValues","parameterTypes":[] }, {"name":"setFields","parameterTypes":["java.util.List"] }, {"name":"setFilters","parameterTypes":["java.util.List"] }, {"name":"setIds","parameterTypes":["java.util.List"] }, {"name":"setJoins","parameterTypes":["java.util.List"] }, {"name":"setLimit","parameterTypes":["java.lang.Integer"] }, {"name":"setLoads","parameterTypes":["java.util.List"] }, {"name":"setManager","parameterTypes":["java.lang.String"] }, {"name":"setMap","parameterTypes":["net.ideahut.springboot.crud.CrudRequest$MapConfig"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setOrders","parameterTypes":["java.util.List"] }, {"name":"setPage","parameterTypes":["net.ideahut.springboot.object.Page"] }, {"name":"setReplica","parameterTypes":["java.lang.Integer"] }, {"name":"setStacks","parameterTypes":["java.util.List"] }, {"name":"setStart","parameterTypes":["java.lang.Integer"] }, {"name":"setValues","parameterTypes":["java.util.List"] }]
-},
-{
-  "name":"net.ideahut.springboot.crud.CrudRequest$MapConfig",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getFlat","parameterTypes":[] }, {"name":"getKeys","parameterTypes":[] }, {"name":"setFlat","parameterTypes":["java.lang.Boolean"] }, {"name":"setKeys","parameterTypes":["java.util.List"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getFilters","parameterTypes":[] }, {"name":"getIds","parameterTypes":[] }, {"name":"getJoins","parameterTypes":[] }, {"name":"getLimit","parameterTypes":[] }, {"name":"getLoads","parameterTypes":[] }, {"name":"getManager","parameterTypes":[] }, {"name":"getMap","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getOrders","parameterTypes":[] }, {"name":"getPage","parameterTypes":[] }, {"name":"getReplica","parameterTypes":[] }, {"name":"getStacks","parameterTypes":[] }, {"name":"getStart","parameterTypes":[] }, {"name":"getValues","parameterTypes":[] }, {"name":"setFields","parameterTypes":["java.util.List"] }, {"name":"setFilters","parameterTypes":["java.util.List"] }, {"name":"setIds","parameterTypes":["java.util.List"] }, {"name":"setJoins","parameterTypes":["java.util.List"] }, {"name":"setLimit","parameterTypes":["java.lang.Integer"] }, {"name":"setLoads","parameterTypes":["java.util.List"] }, {"name":"setManager","parameterTypes":["java.lang.String"] }, {"name":"setMap","parameterTypes":["net.ideahut.springboot.crud.CrudMap"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setOrders","parameterTypes":["java.util.List"] }, {"name":"setPage","parameterTypes":["net.ideahut.springboot.object.Page"] }, {"name":"setReplica","parameterTypes":["java.lang.Integer"] }, {"name":"setStacks","parameterTypes":["java.util.List"] }, {"name":"setStart","parameterTypes":["java.lang.Integer"] }, {"name":"setValues","parameterTypes":["java.util.List"] }]
 },
 {
   "name":"net.ideahut.springboot.crud.CrudResource",
@@ -2934,6 +2921,15 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getError","parameterTypes":[] }, {"name":"getInfo","parameterTypes":[] }, {"name":"getValue","parameterTypes":[] }, {"name":"setInfo","parameterTypes":["net.ideahut.springboot.object.MapStringObject"] }]
+},
+{
+  "name":"net.ideahut.springboot.crud.CrudUpdateEntity"
+},
+{
+  "name":"net.ideahut.springboot.crud.CrudUpdateEntity$2"
+},
+{
+  "name":"net.ideahut.springboot.crud.CrudUpdateEntity0"
 },
 {
   "name":"net.ideahut.springboot.crud.Filter",
@@ -3053,14 +3049,14 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getDefaultDigest","parameterTypes":[] }, {"name":"getHeader","parameterTypes":[] }, {"name":"getRedisExpiry","parameterTypes":[] }, {"name":"getRedisParam","parameterTypes":[] }, {"name":"setApiName","parameterTypes":["java.lang.String"] }, {"name":"setDefaultDigest","parameterTypes":["java.lang.String"] }, {"name":"setRedisExpiry","parameterTypes":["net.ideahut.springboot.api.ApiRedisExpiry"] }, {"name":"setRedisParam","parameterTypes":["net.ideahut.springboot.object.StorageKeyParam"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiName","parameterTypes":[] }, {"name":"getHeader","parameterTypes":[] }, {"name":"getRedisExpiry","parameterTypes":[] }, {"name":"getRedisParam","parameterTypes":[] }, {"name":"setApiName","parameterTypes":["java.lang.String"] }, {"name":"setRedisExpiry","parameterTypes":["net.ideahut.springboot.api.ApiRedisExpiry"] }, {"name":"setRedisParam","parameterTypes":["net.ideahut.springboot.object.StorageKeyParam"] }]
 },
 {
   "name":"net.ideahut.springboot.definition.ApiDefinition$Token",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConsumerJwtParam","parameterTypes":[] }, {"name":"getProcessorJwtParam","parameterTypes":[] }, {"name":"getSignatureTimeSpan","parameterTypes":[] }, {"name":"setConsumerJwtParam","parameterTypes":["net.ideahut.springboot.api.ApiJwtParam"] }, {"name":"setProcessorJwtParam","parameterTypes":["net.ideahut.springboot.api.ApiJwtParam"] }, {"name":"setSignatureTimeSpan","parameterTypes":["net.ideahut.springboot.object.TimeValue"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConsumerJwtParam","parameterTypes":[] }, {"name":"getConsumerTokenStorageIndex","parameterTypes":[] }, {"name":"getProcessorJwtParam","parameterTypes":[] }, {"name":"getSignatureTimeSpan","parameterTypes":[] }, {"name":"getUseApiTokenInProcessor","parameterTypes":[] }, {"name":"setConsumerJwtParam","parameterTypes":["net.ideahut.springboot.api.ApiJwtParam"] }, {"name":"setConsumerTokenStorageIndex","parameterTypes":["java.lang.Integer"] }, {"name":"setProcessorJwtParam","parameterTypes":["net.ideahut.springboot.api.ApiJwtParam"] }, {"name":"setSignatureTimeSpan","parameterTypes":["net.ideahut.springboot.object.TimeValue"] }, {"name":"setUseApiTokenInProcessor","parameterTypes":["java.lang.Boolean"] }]
 },
 {
   "name":"net.ideahut.springboot.definition.CacheGroupDefinition",
@@ -3201,6 +3197,13 @@
   "queryAllPublicMethods":true
 },
 {
+  "name":"net.ideahut.springboot.entity.EntityReplica$Creation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getError","parameterTypes":[] }, {"name":"getSql","parameterTypes":[] }, {"name":"getSuccess","parameterTypes":[] }]
+},
+{
   "name":"net.ideahut.springboot.entity.EntitySoftDelete",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
@@ -3223,6 +3226,9 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getDatabase","parameterTypes":[] }, {"name":"getProperties","parameterTypes":[] }, {"name":"setDatabase","parameterTypes":["java.lang.String"] }, {"name":"setProperties","parameterTypes":["net.ideahut.springboot.object.StringMap"] }]
+},
+{
+  "name":"net.ideahut.springboot.entity.TrxManagerInfo"
 },
 {
   "name":"net.ideahut.springboot.exception.ResultRuntimeException"
@@ -3342,6 +3348,13 @@
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getInstance","parameterTypes":[] }, {"name":"getTrigger","parameterTypes":[] }, {"name":"getTriggerConfig","parameterTypes":[] }, {"name":"getTrxManagerName","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getTypeParam","parameterTypes":[] }]
 },
 {
+  "name":"net.ideahut.springboot.job.JobResult",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getLocking","parameterTypes":[] }, {"name":"getResult","parameterTypes":[] }]
+},
+{
   "name":"net.ideahut.springboot.job.SchedulerHandler",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
@@ -3377,7 +3390,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConfig","parameterTypes":[] }, {"name":"getCronExpression","parameterTypes":[] }, {"name":"getDescription","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getGroupId","parameterTypes":[] }, {"name":"getInstanceId","parameterTypes":[] }, {"name":"getIsActive","parameterTypes":[] }, {"name":"getIsRunOnStartup","parameterTypes":[] }, {"name":"getIsSaveResult","parameterTypes":[] }, {"name":"getLastRunData","parameterTypes":[] }, {"name":"getLastRunTime","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getStatus","parameterTypes":[] }, {"name":"getTriggerId","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getTypeId","parameterTypes":[] }, {"name":"getZoneOffsetSeconds","parameterTypes":[] }, {"name":"setCronExpression","parameterTypes":["java.lang.String"] }, {"name":"setDescription","parameterTypes":["java.lang.String"] }, {"name":"setGroupId","parameterTypes":["java.lang.String"] }, {"name":"setInstanceId","parameterTypes":["java.lang.String"] }, {"name":"setIsActive","parameterTypes":["java.lang.Character"] }, {"name":"setIsRunOnStartup","parameterTypes":["java.lang.Character"] }, {"name":"setIsSaveResult","parameterTypes":["java.lang.Character"] }, {"name":"setLastRunData","parameterTypes":["java.lang.String"] }, {"name":"setLastRunTime","parameterTypes":["java.lang.Long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setTriggerId","parameterTypes":["java.lang.String"] }, {"name":"setTypeId","parameterTypes":["java.lang.String"] }, {"name":"setZoneOffsetSeconds","parameterTypes":["java.lang.Integer"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getConfig","parameterTypes":[] }, {"name":"getCronExpression","parameterTypes":[] }, {"name":"getDescription","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getGroupId","parameterTypes":[] }, {"name":"getInstanceId","parameterTypes":[] }, {"name":"getIsActive","parameterTypes":[] }, {"name":"getIsLocking","parameterTypes":[] }, {"name":"getIsRunOnStartup","parameterTypes":[] }, {"name":"getIsSaveResult","parameterTypes":[] }, {"name":"getLastRunData","parameterTypes":[] }, {"name":"getLastRunTime","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getStatus","parameterTypes":[] }, {"name":"getTriggerId","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getTypeId","parameterTypes":[] }, {"name":"getUnlockUrl","parameterTypes":[] }, {"name":"getZoneOffsetSeconds","parameterTypes":[] }, {"name":"isRemoteDebug","parameterTypes":[] }, {"name":"setCronExpression","parameterTypes":["java.lang.String"] }, {"name":"setDescription","parameterTypes":["java.lang.String"] }, {"name":"setGroupId","parameterTypes":["java.lang.String"] }, {"name":"setInstanceId","parameterTypes":["java.lang.String"] }, {"name":"setIsActive","parameterTypes":["java.lang.Character"] }, {"name":"setIsLocking","parameterTypes":["java.lang.Character"] }, {"name":"setIsRunOnStartup","parameterTypes":["java.lang.Character"] }, {"name":"setIsSaveResult","parameterTypes":["java.lang.Character"] }, {"name":"setLastRunData","parameterTypes":["java.lang.String"] }, {"name":"setLastRunTime","parameterTypes":["java.lang.Long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setRemoteDebug","parameterTypes":["boolean"] }, {"name":"setTriggerId","parameterTypes":["java.lang.String"] }, {"name":"setTypeId","parameterTypes":["java.lang.String"] }, {"name":"setZoneOffsetSeconds","parameterTypes":["java.lang.Integer"] }]
 },
 {
   "name":"net.ideahut.springboot.job.dto.JobTypeDto",
@@ -3432,7 +3445,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.lang.String"] }, {"name":"getCronExpression","parameterTypes":[] }, {"name":"getDescription","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getGroupId","parameterTypes":[] }, {"name":"getInstance","parameterTypes":[] }, {"name":"getInstanceId","parameterTypes":[] }, {"name":"getIsActive","parameterTypes":[] }, {"name":"getIsRunOnStartup","parameterTypes":[] }, {"name":"getIsSaveResult","parameterTypes":[] }, {"name":"getLastRunData","parameterTypes":[] }, {"name":"getLastRunTime","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getTriggerId","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getTypeId","parameterTypes":[] }, {"name":"getZoneOffsetSeconds","parameterTypes":[] }, {"name":"setCronExpression","parameterTypes":["java.lang.String"] }, {"name":"setDescription","parameterTypes":["java.lang.String"] }, {"name":"setGroup","parameterTypes":["net.ideahut.springboot.job.entity.JobGroup"] }, {"name":"setGroupId","parameterTypes":["java.lang.String"] }, {"name":"setInstance","parameterTypes":["net.ideahut.springboot.job.entity.JobInstance"] }, {"name":"setInstanceId","parameterTypes":["java.lang.String"] }, {"name":"setIsActive","parameterTypes":["java.lang.Character"] }, {"name":"setIsRunOnStartup","parameterTypes":["java.lang.Character"] }, {"name":"setIsSaveResult","parameterTypes":["java.lang.Character"] }, {"name":"setLastRunData","parameterTypes":["java.lang.String"] }, {"name":"setLastRunTime","parameterTypes":["java.lang.Long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setTriggerId","parameterTypes":["java.lang.String"] }, {"name":"setType","parameterTypes":["net.ideahut.springboot.job.entity.JobType"] }, {"name":"setTypeId","parameterTypes":["java.lang.String"] }, {"name":"setZoneOffsetSeconds","parameterTypes":["java.lang.Integer"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.lang.String"] }, {"name":"getCronExpression","parameterTypes":[] }, {"name":"getDescription","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getGroupId","parameterTypes":[] }, {"name":"getInstance","parameterTypes":[] }, {"name":"getInstanceId","parameterTypes":[] }, {"name":"getIsActive","parameterTypes":[] }, {"name":"getIsLocking","parameterTypes":[] }, {"name":"getIsRunOnStartup","parameterTypes":[] }, {"name":"getIsSaveResult","parameterTypes":[] }, {"name":"getLastRunData","parameterTypes":[] }, {"name":"getLastRunTime","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getTriggerId","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getTypeId","parameterTypes":[] }, {"name":"getZoneOffsetSeconds","parameterTypes":[] }, {"name":"setCronExpression","parameterTypes":["java.lang.String"] }, {"name":"setDescription","parameterTypes":["java.lang.String"] }, {"name":"setGroup","parameterTypes":["net.ideahut.springboot.job.entity.JobGroup"] }, {"name":"setGroupId","parameterTypes":["java.lang.String"] }, {"name":"setInstance","parameterTypes":["net.ideahut.springboot.job.entity.JobInstance"] }, {"name":"setInstanceId","parameterTypes":["java.lang.String"] }, {"name":"setIsActive","parameterTypes":["java.lang.Character"] }, {"name":"setIsLocking","parameterTypes":["java.lang.Character"] }, {"name":"setIsRunOnStartup","parameterTypes":["java.lang.Character"] }, {"name":"setIsSaveResult","parameterTypes":["java.lang.Character"] }, {"name":"setLastRunData","parameterTypes":["java.lang.String"] }, {"name":"setLastRunTime","parameterTypes":["java.lang.Long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setTriggerId","parameterTypes":["java.lang.String"] }, {"name":"setType","parameterTypes":["net.ideahut.springboot.job.entity.JobType"] }, {"name":"setTypeId","parameterTypes":["java.lang.String"] }, {"name":"setZoneOffsetSeconds","parameterTypes":["java.lang.Integer"] }]
 },
 {
   "name":"net.ideahut.springboot.job.entity.JobTriggerConfig",
@@ -3572,7 +3585,7 @@
   "queryAllPublicMethods":true,
   "queryAllDeclaredConstructors":true,
   "queryAllPublicConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAclOperation","parameterTypes":[] }, {"name":"getConsumerState","parameterTypes":[] }, {"name":"getContainerId","parameterTypes":[] }, {"name":"getGroupId","parameterTypes":[] }, {"name":"getIsReply","parameterTypes":[] }, {"name":"getIsSimpleConsumerGroup","parameterTypes":[] }, {"name":"getKeyDeserializer","parameterTypes":[] }, {"name":"getKeySerializer","parameterTypes":[] }, {"name":"getKeyType","parameterTypes":[] }, {"name":"getPartition","parameterTypes":[] }, {"name":"getPartitionAssignor","parameterTypes":[] }, {"name":"getProducerId","parameterTypes":[] }, {"name":"getTopicId","parameterTypes":[] }, {"name":"getTopicName","parameterTypes":[] }, {"name":"getValueDeserializer","parameterTypes":[] }, {"name":"getValueSerializer","parameterTypes":[] }, {"name":"getValueType","parameterTypes":[] }, {"name":"setContainerId","parameterTypes":["java.lang.String"] }, {"name":"setGroupId","parameterTypes":["java.lang.String"] }, {"name":"setProducerId","parameterTypes":["java.lang.Long"] }, {"name":"setTopicName","parameterTypes":["java.lang.String"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAclOperation","parameterTypes":[] }, {"name":"getConsumerState","parameterTypes":[] }, {"name":"getContainerId","parameterTypes":[] }, {"name":"getGroupId","parameterTypes":[] }, {"name":"getIsReply","parameterTypes":[] }, {"name":"getIsSimpleConsumerGroup","parameterTypes":[] }, {"name":"getKeyDeserializer","parameterTypes":[] }, {"name":"getKeySerializer","parameterTypes":[] }, {"name":"getKeyType","parameterTypes":[] }, {"name":"getPartition","parameterTypes":[] }, {"name":"getPartitionAssignor","parameterTypes":[] }, {"name":"getProducerId","parameterTypes":[] }, {"name":"getTopicId","parameterTypes":[] }, {"name":"getTopicName","parameterTypes":[] }, {"name":"getValueDeserializer","parameterTypes":[] }, {"name":"getValueSerializer","parameterTypes":[] }, {"name":"getValueType","parameterTypes":[] }, {"name":"setContainerId","parameterTypes":["java.lang.String"] }, {"name":"setProducerId","parameterTypes":["java.lang.Long"] }, {"name":"setTopicName","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.kafka.KafkaInfo$Sender",
@@ -3781,7 +3794,7 @@
   "name":"net.ideahut.springboot.object.AttributeBase",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"setAttributes","parameterTypes":["net.ideahut.springboot.object.StringMap"] }]
+  "methods":[{"name":"getAttributes","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.object.BeanInfo",
@@ -4091,7 +4104,7 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "unsafeAllocated":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAttributes","parameterTypes":[] }, {"name":"getHosts","parameterTypes":[] }, {"name":"getPassword","parameterTypes":[] }, {"name":"getRole","parameterTypes":[] }, {"name":"getUsername","parameterTypes":[] }, {"name":"setPassword","parameterTypes":["java.lang.String"] }, {"name":"setUsername","parameterTypes":["java.lang.String"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAttributes","parameterTypes":[] }, {"name":"getHosts","parameterTypes":[] }, {"name":"getPassword","parameterTypes":[] }, {"name":"getRole","parameterTypes":[] }, {"name":"getUsername","parameterTypes":[] }, {"name":"setPassword","parameterTypes":["java.lang.String"] }, {"name":"setRole","parameterTypes":["java.lang.String"] }, {"name":"setUsername","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.security.SecurityUser$Attribute",
@@ -4213,6 +4226,13 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAllowCoreThreadTimeOut","parameterTypes":[] }, {"name":"getAwaitTerminationSeconds","parameterTypes":[] }, {"name":"getCorePoolSize","parameterTypes":[] }, {"name":"getDaemon","parameterTypes":[] }, {"name":"getKeepAliveSeconds","parameterTypes":[] }, {"name":"getMaxPoolSize","parameterTypes":[] }, {"name":"getQueueCapacity","parameterTypes":[] }, {"name":"getThreadNamePrefix","parameterTypes":[] }, {"name":"getThreadPriority","parameterTypes":[] }, {"name":"getWaitForJobsToCompleteOnShutdown","parameterTypes":[] }, {"name":"setAllowCoreThreadTimeOut","parameterTypes":["java.lang.Boolean"] }, {"name":"setCorePoolSize","parameterTypes":["java.lang.Integer"] }, {"name":"setMaxPoolSize","parameterTypes":["java.lang.Integer"] }, {"name":"setThreadNamePrefix","parameterTypes":["java.lang.String"] }, {"name":"setWaitForJobsToCompleteOnShutdown","parameterTypes":["java.lang.Boolean"] }]
+},
+{
+  "name":"net.ideahut.springboot.task.TaskResult",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getError","parameterTypes":[] }, {"name":"getValue","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.template.AppAdvice",
@@ -4475,7 +4495,7 @@
 {
   "name":"net.ideahut.springboot.template.controller.AuthController",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.template.service.AuthService","net.ideahut.springboot.api.WebMvcApiService"] }, {"name":"info","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"login","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String","java.lang.String"] }, {"name":"logout","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }]
+  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.template.service.AuthService","net.ideahut.springboot.api.WebMvcApiService"] }]
 },
 {
   "name":"net.ideahut.springboot.template.controller.CacheController",
@@ -4485,12 +4505,12 @@
 {
   "name":"net.ideahut.springboot.template.controller.CrudController",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.crud.CrudHandler","net.ideahut.springboot.crud.CrudPermission"] }]
+  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.crud.CrudHandler","net.ideahut.springboot.crud.CrudPermission"] }, {"name":"action","parameterTypes":["java.lang.String","jakarta.servlet.http.HttpServletRequest"] }, {"name":"collection","parameterTypes":["java.lang.String","java.lang.Integer","java.lang.Integer","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String"] }, {"name":"create","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","jakarta.servlet.http.HttpServletRequest"] }, {"name":"delete","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"infoConstant","parameterTypes":[] }, {"name":"object","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"update","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","jakarta.servlet.http.HttpServletRequest"] }]
 },
 {
   "name":"net.ideahut.springboot.template.controller.DevController",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.sysparam.SysParamHandler","net.ideahut.springboot.api.ApiConsumerService"] }]
+  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.sysparam.SysParamHandler","net.ideahut.springboot.api.ApiService"] }, {"name":"apiRequest","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.String"] }, {"name":"apiToken","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.template.controller.GridController",
@@ -4500,7 +4520,7 @@
 {
   "name":"net.ideahut.springboot.template.controller.KafkaController",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.kafka.KafkaHandler"] }, {"name":"sendString","parameterTypes":["java.lang.String","java.lang.Integer"] }]
+  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.kafka.KafkaHandler"] }, {"name":"reply","parameterTypes":["java.lang.String","java.lang.Integer"] }, {"name":"sendBytes","parameterTypes":["java.lang.String","java.lang.Integer"] }, {"name":"sendString","parameterTypes":["java.lang.String","java.lang.Integer"] }]
 },
 {
   "name":"net.ideahut.springboot.template.controller.MailController",
@@ -4528,12 +4548,11 @@
 {
   "name":"net.ideahut.springboot.template.controller.ReplicaController",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.entity.EntityTrxManager"] }]
+  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.entity.EntityTrxManager"] }, {"name":"createInformationLinkReplica","parameterTypes":[] }, {"name":"createInformationReplica","parameterTypes":[] }, {"name":"sqlInformationReplica","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.template.controller.RootController",
-  "queryAllDeclaredMethods":true,
-  "methods":[{"name":"favicon","parameterTypes":[] }, {"name":"get","parameterTypes":[] }]
+  "queryAllDeclaredMethods":true
 },
 {
   "name":"net.ideahut.springboot.template.controller.WarmUpController",
@@ -4785,111 +4804,138 @@
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"get$$_hibernate_attributeInterceptor","parameterTypes":[] }, {"name":"get$$_hibernate_entityEntryHolder","parameterTypes":[] }, {"name":"get$$_hibernate_nextManagedEntity","parameterTypes":[] }, {"name":"get$$_hibernate_previousManagedEntity","parameterTypes":[] }, {"name":"get$$_hibernate_tracker","parameterTypes":[] }, {"name":"getCreatedOn","parameterTypes":[] }, {"name":"getId","parameterTypes":[] }, {"name":"getOther","parameterTypes":[] }, {"name":"getUser","parameterTypes":[] }, {"name":"setCreatedOn","parameterTypes":["java.lang.Long"] }, {"name":"setId","parameterTypes":["net.ideahut.springboot.template.entity.app.UserFavoriteId"] }, {"name":"setOther","parameterTypes":["net.ideahut.springboot.template.entity.app.User"] }, {"name":"setUser","parameterTypes":["net.ideahut.springboot.template.entity.app.User"] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$0McZMrFP",
-  "fields":[{"name":"invocationTarget$14030u1"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$03WmcbGa",
+  "fields":[{"name":"invocationTarget$lenj1v1"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$1IYrb6uz",
-  "fields":[{"name":"invocationTarget$0s53dr0"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$1rLcKSHz",
+  "fields":[{"name":"invocationTarget$61qr240"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$2wfpSrZW",
-  "fields":[{"name":"invocationTarget$t4hdo51"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$40Y8rJoF",
+  "fields":[{"name":"invocationTarget$8e3d1e1"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$8t74mM6R",
-  "fields":[{"name":"invocationTarget$vv3lsn1"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$6Jv21EYb",
+  "fields":[{"name":"invocationTarget$ok4cf30"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$D0IWdoj2",
-  "fields":[{"name":"invocationTarget$6hiucv0"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$BVHQZaoH",
+  "fields":[{"name":"invocationTarget$tqe4f50"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$DxLudQHc",
-  "fields":[{"name":"invocationTarget$6d619v1"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$DNDvWLTE",
+  "fields":[{"name":"invocationTarget$l6u4kb0"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$FVTby1DO",
-  "fields":[{"name":"invocationTarget$3pb6541"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$JHIhq5Ud",
+  "fields":[{"name":"invocationTarget$d0kmtm1"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$GjPnCaMm",
-  "fields":[{"name":"invocationTarget$d8nqoc1"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$RPcp7d3a",
+  "fields":[{"name":"invocationTarget$k9eb3j1"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$Uc2zDs9F",
-  "fields":[{"name":"invocationTarget$pevl9o1"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$WzThenAH",
+  "fields":[{"name":"invocationTarget$vumk5u0"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$dGFchXW7",
-  "fields":[{"name":"invocationTarget$cvevbo1"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$e0g0Kepq",
+  "fields":[{"name":"invocationTarget$5krboj0"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$tzfnTCid",
-  "fields":[{"name":"invocationTarget$acm8ps1"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$e5POTCLR",
+  "fields":[{"name":"invocationTarget$efe65v1"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$xLKU4QG8",
-  "fields":[{"name":"invocationTarget$p4au931"}],
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$fNFvj7li",
+  "fields":[{"name":"invocationTarget$hgf5180"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$630cKgH5",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$kkerX22o",
+  "fields":[{"name":"invocationTarget$nnh3ie0"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$9quJ29tK",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$tfeGYuU5",
+  "fields":[{"name":"invocationTarget$8kgrc01"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$G8q3fvXD",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$waQX9xqG",
+  "fields":[{"name":"invocationTarget$ae275g0"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$HRPaFKyB",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$21UGl9mX",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$QAKveiqI",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$I8K2H3iJ",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$X10R4ip7",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$MzWhAk8z",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$bqhU7lmw",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$Rfv6uLIG",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$cIWHH0On",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$T29EhtOd",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$dr8gDSu5",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$TZJQHsKB",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$hdha44Ms",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$TcbuU3AE",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$iMlSbtew",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$UStWUoGZ",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$u76zPMDo",
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$Wn6faeo5",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$Y1gBiOce",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$keQoxlze",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$pB8EiXFA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$t4uADHKd",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$xE6Sjjqn",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$ysFJcnUo",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -4971,11 +5017,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "unsafeAllocated":true,
   "methods":[{"name":"getContent","parameterTypes":[] }, {"name":"getGroup","parameterTypes":[] }, {"name":"getKey","parameterTypes":[] }, {"name":"getTimestamp","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.object.CacheDataHessianDeserializer"
 },
 {
   "name":"net.ideahut.springboot.template.object.CacheDataHessianSerializer"
@@ -5165,6 +5207,9 @@
 {
   "name":"org.apache.coyote.http11.AbstractHttp11Protocol",
   "methods":[{"name":"isSSLEnabled","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.coyote.http11.Http11InputBuffer"
 },
 {
   "name":"org.apache.coyote.http11.Http11NioProtocol",
@@ -5414,9 +5459,6 @@
   "methods":[{"name":"getVersionString","parameterTypes":[] }]
 },
 {
-  "name":"org.hibernate.action.internal.EntityUpdateAction"
-},
-{
   "name":"org.hibernate.annotations.GenericGenerator",
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"strategy","parameterTypes":[] }, {"name":"type","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
@@ -5611,20 +5653,8 @@
   "name":"org.hibernate.engine.jdbc.env.internal.LobCreationLogging_$logger_en_ID"
 },
 {
-  "name":"org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl"
-},
-{
   "name":"org.hibernate.engine.jdbc.internal.JdbcServicesImpl",
   "queryAllPublicMethods":true
-},
-{
-  "name":"org.hibernate.engine.jdbc.internal.ResultSetReturnImpl"
-},
-{
-  "name":"org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor"
-},
-{
-  "name":"org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched"
 },
 {
   "name":"org.hibernate.engine.jdbc.mutation.internal.StandardMutationExecutorService",
@@ -5644,9 +5674,6 @@
 {
   "name":"org.hibernate.engine.query.internal.NativeQueryInterpreterStandardImpl",
   "queryAllPublicMethods":true
-},
-{
-  "name":"org.hibernate.engine.spi.ActionQueue"
 },
 {
   "name":"org.hibernate.engine.spi.CompositeOwner",
@@ -5718,24 +5745,12 @@
   "name":"org.hibernate.engine.spi.SessionImplementor"
 },
 {
-  "name":"org.hibernate.engine.transaction.internal.TransactionImpl"
-},
-{
   "name":"org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform",
   "queryAllPublicMethods":true
 },
 {
   "name":"org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver",
   "queryAllPublicMethods":true
-},
-{
-  "name":"org.hibernate.event.internal.AbstractFlushingEventListener"
-},
-{
-  "name":"org.hibernate.event.internal.DefaultFlushEventListener"
-},
-{
-  "name":"org.hibernate.event.service.internal.EventListenerGroupImpl"
 },
 {
   "name":"org.hibernate.event.spi.EventType",
@@ -5790,9 +5805,6 @@
   "methods":[{"name":"addNamedEntityGraph","parameterTypes":["java.lang.String","jakarta.persistence.EntityGraph"] }, {"name":"addNamedQuery","parameterTypes":["java.lang.String","jakarta.persistence.Query"] }, {"name":"addObserver","parameterTypes":["org.hibernate.SessionFactoryObserver"] }, {"name":"bestGuessEntityName","parameterTypes":["java.lang.Object"] }, {"name":"close","parameterTypes":[] }, {"name":"containsFetchProfileDefinition","parameterTypes":["java.lang.String"] }, {"name":"createEntityManager","parameterTypes":[] }, {"name":"createEntityManager","parameterTypes":["jakarta.persistence.SynchronizationType"] }, {"name":"createEntityManager","parameterTypes":["jakarta.persistence.SynchronizationType","java.util.Map"] }, {"name":"createEntityManager","parameterTypes":["java.util.Map"] }, {"name":"findEntityGraphByName","parameterTypes":["java.lang.String"] }, {"name":"findEntityGraphsByType","parameterTypes":["java.lang.Class"] }, {"name":"getCache","parameterTypes":[] }, {"name":"getCriteriaBuilder","parameterTypes":[] }, {"name":"getCurrentSession","parameterTypes":[] }, {"name":"getCurrentTenantIdentifierResolver","parameterTypes":[] }, {"name":"getCustomEntityDirtinessStrategy","parameterTypes":[] }, {"name":"getDefinedFetchProfileNames","parameterTypes":[] }, {"name":"getDefinedFilterNames","parameterTypes":[] }, {"name":"getDeserializationResolver","parameterTypes":[] }, {"name":"getEntityNotFoundDelegate","parameterTypes":[] }, {"name":"getEventEngine","parameterTypes":[] }, {"name":"getFastSessionServices","parameterTypes":[] }, {"name":"getFetchProfile","parameterTypes":["java.lang.String"] }, {"name":"getFilterDefinition","parameterTypes":["java.lang.String"] }, {"name":"getGenerator","parameterTypes":["java.lang.String"] }, {"name":"getIdentifierGenerator","parameterTypes":["java.lang.String"] }, {"name":"getIdentifierPropertyName","parameterTypes":["java.lang.String"] }, {"name":"getIdentifierType","parameterTypes":["java.lang.String"] }, {"name":"getJdbcServices","parameterTypes":[] }, {"name":"getJpaMetamodel","parameterTypes":[] }, {"name":"getMaximumFetchDepth","parameterTypes":[] }, {"name":"getMetamodel","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getPersistenceUnitUtil","parameterTypes":[] }, {"name":"getProperties","parameterTypes":[] }, {"name":"getQueryEngine","parameterTypes":[] }, {"name":"getReference","parameterTypes":[] }, {"name":"getReferencedPropertyType","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getRuntimeMetamodels","parameterTypes":[] }, {"name":"getSchemaManager","parameterTypes":[] }, {"name":"getServiceRegistry","parameterTypes":[] }, {"name":"getSessionFactoryOptions","parameterTypes":[] }, {"name":"getSqlStringGenerationContext","parameterTypes":[] }, {"name":"getStatistics","parameterTypes":[] }, {"name":"getTenantIdentifierJavaType","parameterTypes":[] }, {"name":"getTypeConfiguration","parameterTypes":[] }, {"name":"getUuid","parameterTypes":[] }, {"name":"getWrapperOptions","parameterTypes":[] }, {"name":"isClosed","parameterTypes":[] }, {"name":"isOpen","parameterTypes":[] }, {"name":"openSession","parameterTypes":[] }, {"name":"openStatelessSession","parameterTypes":[] }, {"name":"openStatelessSession","parameterTypes":["java.sql.Connection"] }, {"name":"openTemporarySession","parameterTypes":[] }, {"name":"toEntityManagerFactory","parameterTypes":[] }, {"name":"unwrap","parameterTypes":["java.lang.Class"] }, {"name":"withOptions","parameterTypes":[] }, {"name":"withStatelessOptions","parameterTypes":[] }]
 },
 {
-  "name":"org.hibernate.internal.SessionImpl"
-},
-{
   "name":"org.hibernate.jpa.AvailableSettings"
 },
 {
@@ -5816,14 +5828,8 @@
   "name":"org.hibernate.metamodel.model.domain.JpaMetamodel"
 },
 {
-  "name":"org.hibernate.persister.entity.AbstractEntityPersister"
-},
-{
   "name":"org.hibernate.persister.entity.SingleTableEntityPersister",
   "methods":[{"name":"<init>","parameterTypes":["org.hibernate.mapping.PersistentClass","org.hibernate.cache.spi.access.EntityDataAccess","org.hibernate.cache.spi.access.NaturalIdDataAccess","org.hibernate.metamodel.spi.RuntimeModelCreationContext"] }]
-},
-{
-  "name":"org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard"
 },
 {
   "name":"org.hibernate.persister.internal.PersisterFactoryImpl",
@@ -5851,6 +5857,9 @@
   "name":"org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher",
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.hibernate.query.Query"
 },
 {
   "name":"org.hibernate.query.QueryLogging_$logger",
@@ -5882,9 +5891,21 @@
   "name":"org.hibernate.query.hql.HqlLogging_$logger_en_ID"
 },
 {
+  "name":"org.hibernate.query.results.ResultSetMappingImpl"
+},
+{
+  "name":"org.hibernate.query.spi.AbstractSelectionQuery"
+},
+{
   "name":"org.hibernate.query.spi.QueryParameterBindingTypeResolver",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
+},
+{
+  "name":"org.hibernate.query.sql.internal.NativeQueryImpl"
+},
+{
+  "name":"org.hibernate.query.sql.internal.NativeSelectQueryPlanImpl"
 },
 {
   "name":"org.hibernate.query.sqm.spi.SqmCreationContext",
@@ -5903,12 +5924,6 @@
   "name":"org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl",
   "queryAllPublicMethods":true,
   "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl"
-},
-{
-  "name":"org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl"
 },
 {
   "name":"org.hibernate.service.internal.SessionFactoryServiceRegistryFactoryImpl",
@@ -5944,6 +5959,12 @@
   "name":"org.hibernate.sql.exec.SqlExecLogger_$logger_en_ID"
 },
 {
+  "name":"org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl"
+},
+{
+  "name":"org.hibernate.sql.exec.spi.JdbcSelectExecutor"
+},
+{
   "name":"org.hibernate.sql.results.LoadingLogger_$logger",
   "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
 },
@@ -5962,6 +5983,12 @@
 },
 {
   "name":"org.hibernate.sql.results.ResultsLogger_$logger_en_ID"
+},
+{
+  "name":"org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess"
+},
+{
+  "name":"org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess"
 },
 {
   "name":"org.hibernate.sql.results.jdbc.internal.JdbcValuesMappingProducerProviderStandard",
@@ -6188,9 +6215,6 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"org.springframework.aop.framework.JdkDynamicAopProxy"
-},
-{
   "name":"org.springframework.aop.framework.ProxyConfig",
   "allDeclaredFields":true,
   "methods":[{"name":"setProxyTargetClass","parameterTypes":["boolean"] }]
@@ -6199,12 +6223,6 @@
   "name":"org.springframework.aop.framework.ProxyProcessorSupport",
   "allDeclaredFields":true,
   "methods":[{"name":"setOrder","parameterTypes":["int"] }]
-},
-{
-  "name":"org.springframework.aop.framework.ReflectiveMethodInvocation"
-},
-{
-  "name":"org.springframework.aop.interceptor.ExposeInvocationInterceptor"
 },
 {
   "name":"org.springframework.aop.scope.ScopedObject"
@@ -7687,9 +7705,6 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"org.springframework.dao.support.PersistenceExceptionTranslationInterceptor"
-},
-{
   "name":"org.springframework.dao.support.PersistenceExceptionTranslator",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
@@ -7824,9 +7839,6 @@
   "name":"org.springframework.data.jpa.repository.support.CrudMethodMetadata",
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"getComment","parameterTypes":[] }, {"name":"getEntityGraph","parameterTypes":[] }, {"name":"getLockModeType","parameterTypes":[] }, {"name":"getQueryHints","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor"
 },
 {
   "name":"org.springframework.data.jpa.repository.support.DefaultJpaContext",
@@ -8278,13 +8290,6 @@
   "name":"org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter"
 },
 {
-  "name":"org.springframework.http.MediaType",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"getQualityValue","parameterTypes":[] }]
-},
-{
   "name":"org.springframework.http.converter.AbstractGenericHttpMessageConverter",
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"canWrite","parameterTypes":["java.lang.reflect.Type","java.lang.Class","org.springframework.http.MediaType"] }, {"name":"write","parameterTypes":["java.lang.Object","java.lang.reflect.Type","org.springframework.http.MediaType","org.springframework.http.HttpOutputMessage"] }]
@@ -8549,9 +8554,6 @@
   "methods":[{"name":"postProcessEntityManager","parameterTypes":["jakarta.persistence.EntityManager"] }, {"name":"postProcessEntityManagerFactory","parameterTypes":["jakarta.persistence.EntityManagerFactory"] }, {"name":"setDatabase","parameterTypes":["org.springframework.orm.jpa.vendor.Database"] }, {"name":"setDatabasePlatform","parameterTypes":["java.lang.String"] }, {"name":"setGenerateDdl","parameterTypes":["boolean"] }, {"name":"setShowSql","parameterTypes":["boolean"] }]
 },
 {
-  "name":"org.springframework.orm.jpa.vendor.HibernateJpaDialect"
-},
-{
   "name":"org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter",
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"getEntityManagerFactoryInterface","parameterTypes":[] }, {"name":"getEntityManagerInterface","parameterTypes":[] }, {"name":"getJpaDialect","parameterTypes":[] }, {"name":"getJpaPropertyMap","parameterTypes":[] }, {"name":"getJpaPropertyMap","parameterTypes":["jakarta.persistence.spi.PersistenceUnitInfo"] }, {"name":"getPersistenceProvider","parameterTypes":[] }, {"name":"getPersistenceProviderRootPackage","parameterTypes":[] }]
@@ -8723,12 +8725,6 @@
   "methods":[{"name":"createThread","parameterTypes":["java.lang.Runnable"] }, {"name":"getThreadGroup","parameterTypes":[] }, {"name":"getThreadNamePrefix","parameterTypes":[] }, {"name":"getThreadPriority","parameterTypes":[] }, {"name":"isDaemon","parameterTypes":[] }, {"name":"setDaemon","parameterTypes":["boolean"] }, {"name":"setThreadGroup","parameterTypes":["java.lang.ThreadGroup"] }, {"name":"setThreadGroupName","parameterTypes":["java.lang.String"] }, {"name":"setThreadPriority","parameterTypes":["int"] }]
 },
 {
-  "name":"org.springframework.util.MimeType",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "methods":[{"name":"getCharset","parameterTypes":[] }, {"name":"getParameters","parameterTypes":[] }, {"name":"getSubtype","parameterTypes":[] }, {"name":"getSubtypeSuffix","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"isConcrete","parameterTypes":[] }, {"name":"isWildcardSubtype","parameterTypes":[] }, {"name":"isWildcardType","parameterTypes":[] }]
-},
-{
   "name":"org.springframework.util.PathMatcher",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
@@ -8892,9 +8888,6 @@
   "methods":[{"name":"noMatchingExceptionHandler","parameterTypes":[] }]
 },
 {
-  "name":"org.springframework.web.method.annotation.ModelAttributeMethodProcessor"
-},
-{
   "name":"org.springframework.web.method.support.CompositeUriComponentsContributor",
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"contributeMethodArgument","parameterTypes":["org.springframework.core.MethodParameter","java.lang.Object","org.springframework.web.util.UriComponentsBuilder","java.util.Map","org.springframework.core.convert.ConversionService"] }, {"name":"supportsParameter","parameterTypes":["org.springframework.core.MethodParameter"] }]
@@ -8903,9 +8896,6 @@
   "name":"org.springframework.web.method.support.HandlerMethodArgumentResolver",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
-},
-{
-  "name":"org.springframework.web.method.support.HandlerMethodArgumentResolverComposite"
 },
 {
   "name":"org.springframework.web.method.support.InvocableHandlerMethod"
@@ -8951,9 +8941,6 @@
   "name":"org.springframework.web.servlet.HandlerExceptionResolver",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
-},
-{
-  "name":"org.springframework.web.servlet.HandlerExecutionChain"
 },
 {
   "name":"org.springframework.web.servlet.HandlerInterceptor",
@@ -9395,9 +9382,5 @@
 {
   "name":"sun.security.x509.SubjectKeyIdentifierExtension",
   "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"void",
-  "queryAllDeclaredMethods":true
 }
 ]
