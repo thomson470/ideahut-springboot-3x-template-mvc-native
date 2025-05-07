@@ -2872,6 +2872,13 @@
   "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"execute","parameterTypes":["net.ideahut.springboot.crud.CrudAction","net.ideahut.springboot.crud.CrudRequest"] }, {"name":"getCrudResource","parameterTypes":[] }, {"name":"getEntityTrxManager","parameterTypes":[] }, {"name":"getRequest","parameterTypes":["byte[]"] }, {"name":"onInitMapper","parameterTypes":[] }]
 },
 {
+  "name":"net.ideahut.springboot.crud.CrudInput",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getData","parameterTypes":[] }, {"name":"getExcludes","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getFilters","parameterTypes":[] }, {"name":"getId","parameterTypes":[] }, {"name":"getLoads","parameterTypes":[] }, {"name":"getManager","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getOrders","parameterTypes":[] }, {"name":"getPage","parameterTypes":[] }, {"name":"getValue","parameterTypes":[] }, {"name":"setData","parameterTypes":["byte[]"] }, {"name":"setExcludes","parameterTypes":["java.lang.String"] }, {"name":"setFields","parameterTypes":["java.lang.String"] }, {"name":"setFilters","parameterTypes":["java.lang.String"] }, {"name":"setId","parameterTypes":["java.lang.String"] }, {"name":"setLoads","parameterTypes":["java.lang.String"] }, {"name":"setManager","parameterTypes":["java.lang.String"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setOrders","parameterTypes":["java.lang.String"] }, {"name":"setPage","parameterTypes":["net.ideahut.springboot.object.Page"] }, {"name":"setValue","parameterTypes":["java.lang.String"] }]
+},
+{
   "name":"net.ideahut.springboot.crud.CrudMap",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
@@ -2901,7 +2908,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getFilters","parameterTypes":[] }, {"name":"getIds","parameterTypes":[] }, {"name":"getJoins","parameterTypes":[] }, {"name":"getLimit","parameterTypes":[] }, {"name":"getLoads","parameterTypes":[] }, {"name":"getManager","parameterTypes":[] }, {"name":"getMap","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getOrders","parameterTypes":[] }, {"name":"getPage","parameterTypes":[] }, {"name":"getReplica","parameterTypes":[] }, {"name":"getStacks","parameterTypes":[] }, {"name":"getStart","parameterTypes":[] }, {"name":"getValues","parameterTypes":[] }, {"name":"setFields","parameterTypes":["java.util.List"] }, {"name":"setFilters","parameterTypes":["java.util.List"] }, {"name":"setIds","parameterTypes":["java.util.List"] }, {"name":"setJoins","parameterTypes":["java.util.List"] }, {"name":"setLimit","parameterTypes":["java.lang.Integer"] }, {"name":"setLoads","parameterTypes":["java.util.List"] }, {"name":"setManager","parameterTypes":["java.lang.String"] }, {"name":"setMap","parameterTypes":["net.ideahut.springboot.crud.CrudMap"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setOrders","parameterTypes":["java.util.List"] }, {"name":"setPage","parameterTypes":["net.ideahut.springboot.object.Page"] }, {"name":"setReplica","parameterTypes":["java.lang.Integer"] }, {"name":"setStacks","parameterTypes":["java.util.List"] }, {"name":"setStart","parameterTypes":["java.lang.Integer"] }, {"name":"setValues","parameterTypes":["java.util.List"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getExcludes","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getFilters","parameterTypes":[] }, {"name":"getIds","parameterTypes":[] }, {"name":"getJoins","parameterTypes":[] }, {"name":"getLimit","parameterTypes":[] }, {"name":"getLoads","parameterTypes":[] }, {"name":"getManager","parameterTypes":[] }, {"name":"getMap","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getOrders","parameterTypes":[] }, {"name":"getPage","parameterTypes":[] }, {"name":"getReplica","parameterTypes":[] }, {"name":"getStacks","parameterTypes":[] }, {"name":"getStart","parameterTypes":[] }, {"name":"getValues","parameterTypes":[] }, {"name":"setExcludes","parameterTypes":["java.util.List"] }, {"name":"setFields","parameterTypes":["java.util.List"] }, {"name":"setFilters","parameterTypes":["java.util.List"] }, {"name":"setIds","parameterTypes":["java.util.List"] }, {"name":"setJoins","parameterTypes":["java.util.List"] }, {"name":"setLimit","parameterTypes":["java.lang.Integer"] }, {"name":"setLoads","parameterTypes":["java.util.List"] }, {"name":"setManager","parameterTypes":["java.lang.String"] }, {"name":"setMap","parameterTypes":["net.ideahut.springboot.crud.CrudMap"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setOrders","parameterTypes":["java.util.List"] }, {"name":"setPage","parameterTypes":["net.ideahut.springboot.object.Page"] }, {"name":"setReplica","parameterTypes":["java.lang.Integer"] }, {"name":"setStacks","parameterTypes":["java.util.List"] }, {"name":"setStart","parameterTypes":["java.lang.Integer"] }, {"name":"setValues","parameterTypes":["java.util.List"] }]
 },
 {
   "name":"net.ideahut.springboot.crud.CrudResource",
@@ -2971,7 +2978,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAlias","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getMatch","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getRelations","parameterTypes":[] }, {"name":"getReplica","parameterTypes":[] }, {"name":"getSelect","parameterTypes":[] }, {"name":"getStore","parameterTypes":[] }, {"name":"setAlias","parameterTypes":["java.lang.String"] }, {"name":"setFields","parameterTypes":["java.util.List"] }, {"name":"setMatch","parameterTypes":["net.ideahut.springboot.crud.Match"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setRelations","parameterTypes":["java.util.List"] }, {"name":"setReplica","parameterTypes":["java.lang.Integer"] }, {"name":"setSelect","parameterTypes":["java.lang.Boolean"] }, {"name":"setStore","parameterTypes":["java.lang.String"] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAlias","parameterTypes":[] }, {"name":"getExcludes","parameterTypes":[] }, {"name":"getFields","parameterTypes":[] }, {"name":"getMatch","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getRelations","parameterTypes":[] }, {"name":"getReplica","parameterTypes":[] }, {"name":"getSelect","parameterTypes":[] }, {"name":"getStore","parameterTypes":[] }, {"name":"setAlias","parameterTypes":["java.lang.String"] }, {"name":"setExcludes","parameterTypes":["java.util.List"] }, {"name":"setFields","parameterTypes":["java.util.List"] }, {"name":"setMatch","parameterTypes":["net.ideahut.springboot.crud.Match"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setRelations","parameterTypes":["java.util.List"] }, {"name":"setReplica","parameterTypes":["java.lang.Integer"] }, {"name":"setSelect","parameterTypes":["java.lang.Boolean"] }, {"name":"setStore","parameterTypes":["java.lang.String"] }]
 },
 {
   "name":"net.ideahut.springboot.crud.Logical",
@@ -4505,7 +4512,7 @@
 {
   "name":"net.ideahut.springboot.template.controller.CrudController",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.crud.CrudHandler","net.ideahut.springboot.crud.CrudPermission"] }, {"name":"action","parameterTypes":["java.lang.String","jakarta.servlet.http.HttpServletRequest"] }, {"name":"collection","parameterTypes":["java.lang.String","java.lang.Integer","java.lang.Integer","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String"] }, {"name":"create","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","jakarta.servlet.http.HttpServletRequest"] }, {"name":"delete","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"infoConstant","parameterTypes":[] }, {"name":"object","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"update","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","jakarta.servlet.http.HttpServletRequest"] }]
+  "methods":[{"name":"<init>","parameterTypes":["net.ideahut.springboot.crud.CrudHandler","net.ideahut.springboot.crud.CrudPermission"] }, {"name":"action","parameterTypes":["java.lang.String","jakarta.servlet.http.HttpServletRequest"] }, {"name":"collection","parameterTypes":["java.lang.String","java.lang.Integer","java.lang.Integer","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String"] }, {"name":"collection","parameterTypes":["java.lang.String","java.lang.Integer","java.lang.Integer","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String"] }, {"name":"create","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","jakarta.servlet.http.HttpServletRequest"] }, {"name":"delete","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"infoConstant","parameterTypes":[] }, {"name":"object","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }, {"name":"update","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","jakarta.servlet.http.HttpServletRequest"] }]
 },
 {
   "name":"net.ideahut.springboot.template.controller.DevController",
@@ -4839,6 +4846,11 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$Jx27Pw60",
+  "fields":[{"name":"invocationTarget$nddrvd1"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
   "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$RPcp7d3a",
   "fields":[{"name":"invocationTarget$k9eb3j1"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
@@ -4846,6 +4858,11 @@
 {
   "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$WzThenAH",
   "fields":[{"name":"invocationTarget$vumk5u0"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$akgGf5us",
+  "fields":[{"name":"invocationTarget$9383ma0"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -4861,6 +4878,11 @@
 {
   "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$fNFvj7li",
   "fields":[{"name":"invocationTarget$hgf5180"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$iWgkA6JA",
+  "fields":[{"name":"invocationTarget$9vmchr1"}],
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -4883,7 +4905,15 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$9tC6CGHK",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
   "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$I8K2H3iJ",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$MgC6pOMP",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -4916,6 +4946,10 @@
 },
 {
   "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$Y1gBiOce",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$fvxR6H4D",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
