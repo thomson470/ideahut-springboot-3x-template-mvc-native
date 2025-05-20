@@ -44,6 +44,10 @@ spring:
    jpa:
       open-in-view: false
       properties:
+         jakarta:
+            persistence:
+               validation:
+                  mode: none
          hibernate:
             hbm2ddl:
                auto: update

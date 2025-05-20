@@ -2211,7 +2211,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiAccess","parameterTypes":[] }, {"name":"getApiKey","parameterTypes":[] }, {"name":"getHeaders","parameterTypes":[] }, {"name":"getScheme","parameterTypes":[] }, {"name":"getToken","parameterTypes":[] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiAccess","parameterTypes":[] }, {"name":"getApiKey","parameterTypes":[] }, {"name":"getAuthorization","parameterTypes":[] }, {"name":"getHeaders","parameterTypes":[] }, {"name":"getScheme","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiEntityClass",
@@ -2235,14 +2235,14 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAppId","parameterTypes":[] }, {"name":"getData","parameterTypes":[] }, {"name":"getFrom","parameterTypes":[] }, {"name":"getSignature","parameterTypes":[] }, {"name":"getTimestamp","parameterTypes":[] }, {"name":"getToken","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getZoneOffset","parameterTypes":[] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAppId","parameterTypes":[] }, {"name":"getAuth","parameterTypes":[] }, {"name":"getData","parameterTypes":[] }, {"name":"getFrom","parameterTypes":[] }, {"name":"getSignature","parameterTypes":[] }, {"name":"getTimestamp","parameterTypes":[] }, {"name":"getToken","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getZoneOffset","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiHeaderValue",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiHeaderName","parameterTypes":[] }, {"name":"getAppId","parameterTypes":[] }, {"name":"getData","parameterTypes":[] }, {"name":"getFrom","parameterTypes":[] }, {"name":"getSignature","parameterTypes":[] }, {"name":"getTimestamp","parameterTypes":[] }, {"name":"getToken","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getZoneOffset","parameterTypes":[] }]
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiHeaderName","parameterTypes":[] }, {"name":"getAppId","parameterTypes":[] }, {"name":"getAuth","parameterTypes":[] }, {"name":"getData","parameterTypes":[] }, {"name":"getFrom","parameterTypes":[] }, {"name":"getSignature","parameterTypes":[] }, {"name":"getTimestamp","parameterTypes":[] }, {"name":"getToken","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getZoneOffset","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.api.ApiHelper"
@@ -2312,7 +2312,12 @@
 {
   "name":"net.ideahut.springboot.api.ApiTokenServiceImpl",
   "queryAllDeclaredMethods":true,
-  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"createConsumerApiToken","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiRequest"] }, {"name":"createJwtProcessorAccessToken","parameterTypes":["net.ideahut.springboot.api.ApiAccess"] }, {"name":"getApiToken","parameterTypes":["java.lang.String"] }, {"name":"getApiTokenStorageIndex","parameterTypes":[] }, {"name":"getConsumerApiAccess","parameterTypes":["java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["com.fasterxml.jackson.core.type.TypeReference","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["java.lang.Class","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtProcessorApiAccess","parameterTypes":["java.lang.String"] }, {"name":"getJwtSecretKey","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"isUseApiTokenInProcessor","parameterTypes":[] }, {"name":"resetApiToken","parameterTypes":["java.lang.String"] }, {"name":"retrieveApiToken","parameterTypes":["net.ideahut.springboot.api.ApiService","java.lang.String"] }, {"name":"validateSignature","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiHeaderValue"] }]
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"createConsumerApiToken","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiRequest"] }, {"name":"createJwtProcessorAccessToken","parameterTypes":["net.ideahut.springboot.api.ApiAccess"] }, {"name":"getApiToken","parameterTypes":["java.lang.String"] }, {"name":"getApiTokenStorageIndex","parameterTypes":[] }, {"name":"getConsumerApiAccess","parameterTypes":["java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["com.fasterxml.jackson.core.type.TypeReference","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtPayload","parameterTypes":["java.lang.Class","javax.crypto.SecretKey","java.lang.String"] }, {"name":"getJwtProcessorApiAccess","parameterTypes":["java.lang.String"] }, {"name":"getJwtSecretKey","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getSysParamApiNames","parameterTypes":[] }, {"name":"getSysParamApiToken","parameterTypes":["java.lang.String"] }, {"name":"isUseApiTokenInProcessor","parameterTypes":[] }, {"name":"resetApiToken","parameterTypes":["java.lang.String"] }, {"name":"retrieveApiToken","parameterTypes":["net.ideahut.springboot.api.ApiService","java.lang.String"] }, {"name":"updateSysParamApiToken","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"validateSignature","parameterTypes":["net.ideahut.springboot.api.ApiSource","net.ideahut.springboot.api.ApiHeaderValue"] }]
+},
+{
+  "name":"net.ideahut.springboot.api.ApiTokenSysParam",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
 },
 {
   "name":"net.ideahut.springboot.api.ApiUser",
@@ -4559,7 +4564,8 @@
 },
 {
   "name":"net.ideahut.springboot.template.controller.RootController",
-  "queryAllDeclaredMethods":true
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"favicon","parameterTypes":[] }, {"name":"get","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.template.controller.WarmUpController",
@@ -4809,168 +4815,6 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"get$$_hibernate_attributeInterceptor","parameterTypes":[] }, {"name":"get$$_hibernate_entityEntryHolder","parameterTypes":[] }, {"name":"get$$_hibernate_nextManagedEntity","parameterTypes":[] }, {"name":"get$$_hibernate_previousManagedEntity","parameterTypes":[] }, {"name":"get$$_hibernate_tracker","parameterTypes":[] }, {"name":"getCreatedOn","parameterTypes":[] }, {"name":"getId","parameterTypes":[] }, {"name":"getOther","parameterTypes":[] }, {"name":"getUser","parameterTypes":[] }, {"name":"setCreatedOn","parameterTypes":["java.lang.Long"] }, {"name":"setId","parameterTypes":["net.ideahut.springboot.template.entity.app.UserFavoriteId"] }, {"name":"setOther","parameterTypes":["net.ideahut.springboot.template.entity.app.User"] }, {"name":"setUser","parameterTypes":["net.ideahut.springboot.template.entity.app.User"] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$03WmcbGa",
-  "fields":[{"name":"invocationTarget$lenj1v1"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$1rLcKSHz",
-  "fields":[{"name":"invocationTarget$61qr240"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$40Y8rJoF",
-  "fields":[{"name":"invocationTarget$8e3d1e1"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$6Jv21EYb",
-  "fields":[{"name":"invocationTarget$ok4cf30"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$BVHQZaoH",
-  "fields":[{"name":"invocationTarget$tqe4f50"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$DNDvWLTE",
-  "fields":[{"name":"invocationTarget$l6u4kb0"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$JHIhq5Ud",
-  "fields":[{"name":"invocationTarget$d0kmtm1"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$Jx27Pw60",
-  "fields":[{"name":"invocationTarget$nddrvd1"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$RPcp7d3a",
-  "fields":[{"name":"invocationTarget$k9eb3j1"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$WzThenAH",
-  "fields":[{"name":"invocationTarget$vumk5u0"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$akgGf5us",
-  "fields":[{"name":"invocationTarget$9383ma0"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$e0g0Kepq",
-  "fields":[{"name":"invocationTarget$5krboj0"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$e5POTCLR",
-  "fields":[{"name":"invocationTarget$efe65v1"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$fNFvj7li",
-  "fields":[{"name":"invocationTarget$hgf5180"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$iWgkA6JA",
-  "fields":[{"name":"invocationTarget$9vmchr1"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$kkerX22o",
-  "fields":[{"name":"invocationTarget$nnh3ie0"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$tfeGYuU5",
-  "fields":[{"name":"invocationTarget$8kgrc01"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateAccessOptimizer$waQX9xqG",
-  "fields":[{"name":"invocationTarget$ae275g0"}],
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$21UGl9mX",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$9tC6CGHK",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$I8K2H3iJ",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$MgC6pOMP",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$MzWhAk8z",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$Rfv6uLIG",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$T29EhtOd",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$TZJQHsKB",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$TcbuU3AE",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$UStWUoGZ",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$Wn6faeo5",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$Y1gBiOce",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$fvxR6H4D",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$keQoxlze",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$pB8EiXFA",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$t4uADHKd",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$xE6Sjjqn",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"net.ideahut.springboot.template.entity.app.UserFavorite$HibernateInstantiator$ysFJcnUo",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
   "name":"net.ideahut.springboot.template.entity.app.UserFavoriteId",
@@ -9416,5 +9260,9 @@
 {
   "name":"sun.security.x509.SubjectKeyIdentifierExtension",
   "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"void",
+  "queryAllDeclaredMethods":true
 }
 ]
