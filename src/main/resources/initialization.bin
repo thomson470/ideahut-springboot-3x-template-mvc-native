@@ -1,0 +1,7 @@
+[
+	"org.springframework.http.MediaType",
+	"org.springframework.web.bind.annotation.RequestMethod",
+	"net.ideahut.springboot.crud.SpecificFilter",
+	"net.ideahut.springboot.crud.SpecificCondition",
+	"java.net.Proxy$Type"
+]

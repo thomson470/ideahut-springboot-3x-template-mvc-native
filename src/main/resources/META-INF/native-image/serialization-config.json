@@ -1,0 +1,693 @@
+{
+  "lambdaCapturingTypes" : [ ],
+  "proxies" : [ ],
+  "types" : [ {
+    "name" : "[B"
+  }, {
+    "name" : "com.fasterxml.jackson.databind.node.ArrayNode"
+  }, {
+    "name" : "com.fasterxml.jackson.databind.node.BaseJsonNode"
+  }, {
+    "name" : "com.fasterxml.jackson.databind.node.ContainerNode"
+  }, {
+    "name" : "com.fasterxml.jackson.databind.node.NodeSerialization"
+  }, {
+    "name" : "com.fasterxml.jackson.databind.node.ObjectNode"
+  }, {
+    "name" : "java.io.Serializable"
+  }, {
+    "name" : "java.lang.Boolean"
+  }, {
+    "name" : "java.lang.Byte"
+  }, {
+    "name" : "java.lang.Character"
+  }, {
+    "name" : "java.lang.Double"
+  }, {
+    "name" : "java.lang.Enum"
+  }, {
+    "name" : "java.lang.Float"
+  }, {
+    "name" : "java.lang.Integer"
+  }, {
+    "name" : "java.lang.Long"
+  }, {
+    "name" : "java.lang.Number"
+  }, {
+    "name" : "java.lang.Short"
+  }, {
+    "name" : "java.lang.String"
+  }, {
+    "name" : "java.lang.StringBuffer"
+  }, {
+    "name" : "java.lang.StringBuilder"
+  }, {
+    "name" : "java.math.BigDecimal"
+  }, {
+    "name" : "java.math.BigInteger"
+  }, {
+    "name" : "java.time.LocalDate"
+  }, {
+    "name" : "java.time.LocalDateTime"
+  }, {
+    "name" : "java.time.LocalTime"
+  }, {
+    "name" : "java.util.ArrayList"
+  }, {
+    "name" : "java.util.Collections$EmptyList"
+  }, {
+    "name" : "java.util.Collections$EmptyMap"
+  }, {
+    "name" : "java.util.Collections$EmptySet"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableCollection"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableList"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableMap"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableNavigableMap"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableNavigableMap$EmptyNavigableMap"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableNavigableSet"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableNavigableSet$EmptyNavigableSet"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableRandomAccessList"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableSortedMap"
+  }, {
+    "name" : "java.util.Collections$UnmodifiableSortedSet"
+  }, {
+    "name" : "java.util.Date"
+  }, {
+    "name" : "java.util.HashMap"
+  }, {
+    "name" : "java.util.HashSet"
+  }, {
+    "name" : "java.util.LinkedHashMap"
+  }, {
+    "name" : "java.util.LinkedHashSet"
+  }, {
+    "name" : "java.util.UUID"
+  }, {
+    "name" : "java.util.concurrent.ThreadPoolExecutor$Worker"
+  }, {
+    "name" : "java.util.concurrent.TimeUnit"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminMenu"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Api"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Central"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Crud"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Grid"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Module"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Modules"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Role"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Web"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Web$Color"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminProperties$Web$MenuTitle"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$Cache"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$Grid"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$Kafka"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$Redis"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$Reload"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$RuleCache"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$RuleKafka"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$RuleRedis"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$RuleScheduler"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$Scheduler"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminRole$TypeCache"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminTrxManagerInfo"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminTrxManagerInfo$Entity"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminTrxManagerInfo$Field"
+  }, {
+    "name" : "net.ideahut.springboot.admin.AdminTrxManagerInfo$Id"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiAccess"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiAccess$Attribute"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiAuth"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiEntityClass"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiHeaderName"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiHeaderValue"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiJwtParam"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiParameter"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiRedisExpiry"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiRequest"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiServiceImpl"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiSource"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiSource$Config"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiUser"
+  }, {
+    "name" : "net.ideahut.springboot.api.ApiUser$Attribute"
+  }, {
+    "name" : "net.ideahut.springboot.api.HelperUnmodifiable$UnmodifiableApiAccess"
+  }, {
+    "name" : "net.ideahut.springboot.api.HelperUnmodifiable$UnmodifiableApiHeaderName"
+  }, {
+    "name" : "net.ideahut.springboot.api.HelperUnmodifiable$UnmodifiableApiHeaderValue"
+  }, {
+    "name" : "net.ideahut.springboot.api.HelperUnmodifiable$UnmodifiableApiJwtParam"
+  }, {
+    "name" : "net.ideahut.springboot.api.HelperUnmodifiable$UnmodifiableApiRedisExpiry"
+  }, {
+    "name" : "net.ideahut.springboot.api.WebMvcApiServiceImpl"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiConnectDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiConnectRoleDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiCrudDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiCrudExcludeDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiCrudFieldDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiItemCrudDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiItemRequestDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiProviderConfigDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiProviderCrudActionDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiProviderCrudDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiProviderCrudFilterDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiProviderDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiProviderHostDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiProviderRequestDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiRoleCrudActionDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiRoleCrudDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiRoleCrudFilterDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiRoleDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.dto.ApiRoleRequestDto"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiConnect"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiConnectRole"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiCrud"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiCrudExclude"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiCrudField"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiItemCrud"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiItemRequest"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiProvider"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiProviderConfig"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiProviderCrud"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiProviderCrudAction"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiProviderCrudFilter"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiProviderHost"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiProviderRequest"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiRole"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiRoleCrud"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiRoleCrudAction"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiRoleCrudFilter"
+  }, {
+    "name" : "net.ideahut.springboot.api.entity.ApiRoleRequest"
+  }, {
+    "name" : "net.ideahut.springboot.audit.AuditAccessible"
+  }, {
+    "name" : "net.ideahut.springboot.audit.AuditAccessible$AuditField"
+  }, {
+    "name" : "net.ideahut.springboot.audit.AuditAccessible$AuditMember"
+  }, {
+    "name" : "net.ideahut.springboot.audit.AuditInfo"
+  }, {
+    "name" : "net.ideahut.springboot.audit.AuditObject"
+  }, {
+    "name" : "net.ideahut.springboot.audit.AuditRequest"
+  }, {
+    "name" : "net.ideahut.springboot.audit.DatabaseAuditProperties"
+  }, {
+    "name" : "net.ideahut.springboot.audit.DatabaseAuditProperties$Column"
+  }, {
+    "name" : "net.ideahut.springboot.audit.DatabaseAuditProperties$Enable"
+  }, {
+    "name" : "net.ideahut.springboot.audit.DatabaseAuditProperties$Generate"
+  }, {
+    "name" : "net.ideahut.springboot.audit.DatabaseAuditProperties$Length"
+  }, {
+    "name" : "net.ideahut.springboot.audit.DatabaseAuditProperties$Table"
+  }, {
+    "name" : "net.ideahut.springboot.cache.CacheGroupProperties"
+  }, {
+    "name" : "net.ideahut.springboot.cache.CacheInfo"
+  }, {
+    "name" : "net.ideahut.springboot.crud.Condition"
+  }, {
+    "name" : "net.ideahut.springboot.crud.CrudAction"
+  }, {
+    "name" : "net.ideahut.springboot.crud.CrudProperties"
+  }, {
+    "name" : "net.ideahut.springboot.crud.Filter"
+  }, {
+    "name" : "net.ideahut.springboot.crud.Logical"
+  }, {
+    "name" : "net.ideahut.springboot.crud.Match"
+  }, {
+    "name" : "net.ideahut.springboot.crud.Relation"
+  }, {
+    "name" : "net.ideahut.springboot.crud.SpecificCondition"
+  }, {
+    "name" : "net.ideahut.springboot.crud.SpecificFilter"
+  }, {
+    "name" : "net.ideahut.springboot.definition.AdminDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.AdminDefinition$Credential"
+  }, {
+    "name" : "net.ideahut.springboot.definition.AdminDefinition$Handler"
+  }, {
+    "name" : "net.ideahut.springboot.definition.AdminDefinition$Security"
+  }, {
+    "name" : "net.ideahut.springboot.definition.ApiDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.ApiDefinition$Handler"
+  }, {
+    "name" : "net.ideahut.springboot.definition.ApiDefinition$Service"
+  }, {
+    "name" : "net.ideahut.springboot.definition.ApiDefinition$Token"
+  }, {
+    "name" : "net.ideahut.springboot.definition.CacheGroupDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.CrudDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.DatabaseAuditDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.FilterDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.GridDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.KafkaDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.MessageDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.RestDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.definition.TrxManagerDefinition"
+  }, {
+    "name" : "net.ideahut.springboot.entity.DatabaseProperties"
+  }, {
+    "name" : "net.ideahut.springboot.entity.DatasourceProperties"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityApiExcludeParam"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityAudit"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityAuditParam"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityAuditSoftDelete"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityBase"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityForeignKeyParam"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityIdType"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntityListenerParam"
+  }, {
+    "name" : "net.ideahut.springboot.entity.EntitySoftDelete"
+  }, {
+    "name" : "net.ideahut.springboot.entity.FieldBlob"
+  }, {
+    "name" : "net.ideahut.springboot.entity.FieldClob"
+  }, {
+    "name" : "net.ideahut.springboot.entity.ForeignKeyAction"
+  }, {
+    "name" : "net.ideahut.springboot.entity.JpaProperties"
+  }, {
+    "name" : "net.ideahut.springboot.exception.ResultException"
+  }, {
+    "name" : "net.ideahut.springboot.exception.ResultRuntimeException"
+  }, {
+    "name" : "net.ideahut.springboot.grid.GridParent"
+  }, {
+    "name" : "net.ideahut.springboot.grid.GridParentList"
+  }, {
+    "name" : "net.ideahut.springboot.grid.GridSource"
+  }, {
+    "name" : "net.ideahut.springboot.init.InitEnum"
+  }, {
+    "name" : "net.ideahut.springboot.job.JobEntityClass"
+  }, {
+    "name" : "net.ideahut.springboot.job.JobUnlockObject"
+  }, {
+    "name" : "net.ideahut.springboot.job.dto.JobGroupDto"
+  }, {
+    "name" : "net.ideahut.springboot.job.dto.JobInstanceDto"
+  }, {
+    "name" : "net.ideahut.springboot.job.dto.JobTriggerConfigDto"
+  }, {
+    "name" : "net.ideahut.springboot.job.dto.JobTriggerDto"
+  }, {
+    "name" : "net.ideahut.springboot.job.dto.JobTypeDto"
+  }, {
+    "name" : "net.ideahut.springboot.job.dto.JobTypeParamDto"
+  }, {
+    "name" : "net.ideahut.springboot.job.dto.TriggerStatus"
+  }, {
+    "name" : "net.ideahut.springboot.job.entity.JobGroup"
+  }, {
+    "name" : "net.ideahut.springboot.job.entity.JobInstance"
+  }, {
+    "name" : "net.ideahut.springboot.job.entity.JobTrigger"
+  }, {
+    "name" : "net.ideahut.springboot.job.entity.JobTriggerConfig"
+  }, {
+    "name" : "net.ideahut.springboot.job.entity.JobType"
+  }, {
+    "name" : "net.ideahut.springboot.job.entity.JobTypeParam"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ClientProperties"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ConsumerProperties"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ConsumerProperties$Container"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ConsumerProperties$Listener"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ConsumerProperties$Topic"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Consumer"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Container"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Listener"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Member"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Node"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Partition"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Producer"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Search"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Sender"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaInfo$Topic"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.KafkaProperties"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ProducerProperties"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ProducerProperties$Reply"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ProducerProperties$Sender"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.ProducerProperties$Topic"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.TopicProperties"
+  }, {
+    "name" : "net.ideahut.springboot.kafka.TopicProperties$Item"
+  }, {
+    "name" : "net.ideahut.springboot.mail.MailObject"
+  }, {
+    "name" : "net.ideahut.springboot.mail.MailObject$Attachment"
+  }, {
+    "name" : "net.ideahut.springboot.mail.MailObject$Inline"
+  }, {
+    "name" : "net.ideahut.springboot.mail.MailProperties"
+  }, {
+    "name" : "net.ideahut.springboot.message.dto.LanguageDto"
+  }, {
+    "name" : "net.ideahut.springboot.message.dto.MessageDto"
+  }, {
+    "name" : "net.ideahut.springboot.message.entity.Language"
+  }, {
+    "name" : "net.ideahut.springboot.message.entity.Message"
+  }, {
+    "name" : "net.ideahut.springboot.object.ApplicationInfo"
+  }, {
+    "name" : "net.ideahut.springboot.object.AttributeBase"
+  }, {
+    "name" : "net.ideahut.springboot.object.BeanInfo"
+  }, {
+    "name" : "net.ideahut.springboot.object.Helper$UnmodifiableMapStringObject"
+  }, {
+    "name" : "net.ideahut.springboot.object.Helper$UnmodifiableStringList"
+  }, {
+    "name" : "net.ideahut.springboot.object.Helper$UnmodifiableStringMap"
+  }, {
+    "name" : "net.ideahut.springboot.object.Helper$UnmodifiableStringSet"
+  }, {
+    "name" : "net.ideahut.springboot.object.ItemStringList"
+  }, {
+    "name" : "net.ideahut.springboot.object.ItemStringSet"
+  }, {
+    "name" : "net.ideahut.springboot.object.KeyValue"
+  }, {
+    "name" : "net.ideahut.springboot.object.MapStringObject"
+  }, {
+    "name" : "net.ideahut.springboot.object.Message"
+  }, {
+    "name" : "net.ideahut.springboot.object.MethodInfo"
+  }, {
+    "name" : "net.ideahut.springboot.object.Option"
+  }, {
+    "name" : "net.ideahut.springboot.object.Page"
+  }, {
+    "name" : "net.ideahut.springboot.object.ParameterInfo"
+  }, {
+    "name" : "net.ideahut.springboot.object.RequestInfo"
+  }, {
+    "name" : "net.ideahut.springboot.object.RequestInfo$Handler"
+  }, {
+    "name" : "net.ideahut.springboot.object.RequestInfo$Search"
+  }, {
+    "name" : "net.ideahut.springboot.object.Result"
+  }, {
+    "name" : "net.ideahut.springboot.object.SelfReference"
+  }, {
+    "name" : "net.ideahut.springboot.object.StorageKeyParam"
+  }, {
+    "name" : "net.ideahut.springboot.object.StringList"
+  }, {
+    "name" : "net.ideahut.springboot.object.StringMap"
+  }, {
+    "name" : "net.ideahut.springboot.object.StringSet"
+  }, {
+    "name" : "net.ideahut.springboot.object.TimeValue"
+  }, {
+    "name" : "net.ideahut.springboot.object.VersionInfo"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisInfo"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisInfo$Client"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisInfo$Operation"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisParam"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Client"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Cluster"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Connection"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Pool"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Sentinel"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Standalone"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Template"
+  }, {
+    "name" : "net.ideahut.springboot.redis.RedisProperties$Type"
+  }, {
+    "name" : "net.ideahut.springboot.rest.OkHttpRestHandler"
+  }, {
+    "name" : "net.ideahut.springboot.rest.RestClient"
+  }, {
+    "name" : "net.ideahut.springboot.rest.RestHandlerImpl"
+  }, {
+    "name" : "net.ideahut.springboot.rest.RestMethod"
+  }, {
+    "name" : "net.ideahut.springboot.rest.RestMultipart$Mode"
+  }, {
+    "name" : "net.ideahut.springboot.rest.RestMultipart$Type"
+  }, {
+    "name" : "net.ideahut.springboot.rest.RestProxy"
+  }, {
+    "name" : "net.ideahut.springboot.rest.RestTimeout"
+  }, {
+    "name" : "net.ideahut.springboot.security.SecurityUser"
+  }, {
+    "name" : "net.ideahut.springboot.security.SecurityUser$Attribute"
+  }, {
+    "name" : "net.ideahut.springboot.security.SecurityUser$Parameter"
+  }, {
+    "name" : "net.ideahut.springboot.security.SecurityUserList"
+  }, {
+    "name" : "net.ideahut.springboot.sysparam.dto.SysCodesMapDto"
+  }, {
+    "name" : "net.ideahut.springboot.sysparam.dto.SysParamDto"
+  }, {
+    "name" : "net.ideahut.springboot.sysparam.dto.SysParamMapDto"
+  }, {
+    "name" : "net.ideahut.springboot.sysparam.entity.SysParam"
+  }, {
+    "name" : "net.ideahut.springboot.task.TaskInfo"
+  }, {
+    "name" : "net.ideahut.springboot.task.TaskInput"
+  }, {
+    "name" : "net.ideahut.springboot.task.TaskProperties"
+  }, {
+    "name" : "net.ideahut.springboot.task.TaskResult"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.AutoGenLongIdHardDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.AutoGenStrIdHardDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.AutoGenStrIdSoftDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.CompositeHardDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.CompositeSoftDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.EmbeddedHardDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.EmbeddedSoftDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.EmbeddedWithoutAttribute"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.EmbededId"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.Information"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.InformationLink"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.IntegerIdWithBytes"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.LongIdJoinComposite"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.LongIdJoinEmbedded"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.ManualGenStrIdSoftDel"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.Menu"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.MenuId"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.MenuRole"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.MenuRoleId"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.Role"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.User"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.UserDetail"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.UserFavorite"
+  }, {
+    "name" : "net.ideahut.springboot.template.entity.app.UserFavoriteId"
+  }, {
+    "name" : "net.ideahut.springboot.template.object.CacheData"
+  }, {
+    "name" : "net.ideahut.springboot.template.object.UserData"
+  }, {
+    "name" : "net.ideahut.springboot.template.properties.OtherProperties$TrxManagerCfg"
+  }, {
+    "name" : "org.quartz.SchedulerMetaData"
+  }, {
+    "name" : "org.springframework.data.domain.AbstractPageRequest"
+  }, {
+    "name" : "org.springframework.data.domain.Chunk"
+  }, {
+    "name" : "org.springframework.data.domain.ExampleMatcher$MatchMode"
+  }, {
+    "name" : "org.springframework.data.domain.ExampleMatcher$NoOpPropertyValueTransformer"
+  }, {
+    "name" : "org.springframework.data.domain.ExampleMatcher$NullHandler"
+  }, {
+    "name" : "org.springframework.data.domain.ExampleMatcher$StringMatcher"
+  }, {
+    "name" : "org.springframework.data.domain.PageImpl"
+  }, {
+    "name" : "org.springframework.data.domain.PageRequest"
+  }, {
+    "name" : "org.springframework.data.domain.ScrollPosition$Direction"
+  }, {
+    "name" : "org.springframework.data.domain.SliceImpl"
+  }, {
+    "name" : "org.springframework.data.domain.Sort"
+  }, {
+    "name" : "org.springframework.data.domain.Sort$Direction"
+  }, {
+    "name" : "org.springframework.data.domain.Sort$NullHandling"
+  }, {
+    "name" : "org.springframework.data.domain.Sort$Order"
+  }, {
+    "name" : "org.springframework.data.domain.Sort$TypedSort"
+  } ]
+}
